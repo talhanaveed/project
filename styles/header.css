@@ -1,0 +1,73 @@
+
+.header {
+background: #3f3f3f;
+background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #696969), color-stop(100%, #3f3f3f));
+background-image: -moz-linear-gradient(top, #696969 0%,#3f3f3f 100%);
+
+box-shadow: 0 0 10px #333;
+z-index: 10;
+position: fixed;
+top: 0;
+width: 100%;
+}
+
+html, body, div, h1, h2, ul, li{
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+list-style: none;
+}
+div {
+display: block;
+}
+
+.header .wrapper {
+z-index: 3;
+margin-left: auto;
+margin-right: auto;
+width: 974px;
+position: relative;
+float: center;
+}
+
+
+#li-logo {
+width: 98px;
+margin-top: 3px;
+background: url('/Project/images/logo1.png') left center no-repeat;
+display: block;
+height: 36px;
+padding: 2px;
+float: left;
+}
+.header .main-nav{
+float: right;
+}
+
+.header .main-nav .nav-item {
+float: left;
+line-height: 13px;
+position: relative;
+
+}
+
+.header .main-nav .nav-link {
+font-size: 13px;
+padding-top: 13px;
+padding-bottom: 14px;
+padding-left: 10px;
+padding-right: 10px;
+color: #D7D7D7;
+text-decoration: none;
+display: block;
+
+}
+
+.header .main-nav .nav-link:hover{
+color: #0077b5;
+}
+
+body, input, select, textarea, button {
+font-family: Arial,sans-serif;
+}

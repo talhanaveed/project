@@ -1,0 +1,306 @@
+
+#body {
+padding: 10px 0;
+margin-top: 50px;
+margin-bottom: 10px;
+margin-left: auto;
+margin-right: auto;
+width: 980px;
+height:100%;
+}
+#body, #mid-content {
+clear: both;
+}
+
+#mid-content{
+min-width: 805px;
+min-height: 420px;
+}
+#mid-content #content1{
+margin-top: 30px;
+width: 420px;
+height:200px;
+float: left;
+margin-left: 10px;
+margin-right: auto; 	
+}
+#mid-content #content1 h1 {
+font-size: 115%;
+color: #39C;
+text-align: left;
+font-weight: bold;
+line-height: 1.55;
+margin-bottom: 15px;
+}
+#mid-content #content1 .liststyle1 {
+margin: 0 0 15px;
+list-style: none;
+display: block;
+
+}
+
+#mid-content #content1 li {
+color: #666;
+font-size: 80%;
+margin: 0 0 6px;
+background: url('/Project/images/content1.png') no-repeat;
+}
+
+#mid-content #content1 #reconnect {
+background-position: 0 3px;
+padding: 8px 0 10px 68px;
+}
+
+#mid-content #content1 #answers {
+background-position: 5px -222px;
+padding: 13px 0 10px 68px;
+}
+
+#mid-content #content1 #power {
+background-position: 0 -144px;
+padding: 8px 0 10px 68px;
+}
+
+#content2{
+	float:right;
+	width:325px;
+	height:200px;
+	margin-top:30px;
+	margin-right:05px;
+	margin-left: auto;
+	padding:0;
+	margin-bottom: 105px;
+
+}
+#signup_box_header{
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #73b8db), color-stop(100%, #4393bb));
+	background: -moz-linear-gradient(top, #73b8db 0%,#4393bb 100%);
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	padding: 5px 10px;
+	color:white;
+	font-size: 83%;
+	font-weight: bold;
+	margin-right: 5px;
+}
+#signup_box_form{
+	width: 318.5px;
+	height: 237px;
+	border:1px solid #ddd;
+	border-bottom-left-radius: 6px;
+border-bottom-right-radius: 6px;
+
+}
+#signup_box_form ul
+{
+clear: both;
+overflow: hidden;
+list-style: none;
+}
+#signup_box_form li
+{
+margin-bottom: 8px;
+overflow: hidden;
+}
+
+form{
+	margin-top: 9px;
+	display: block;
+	border:none;
+	margin-left: 10px;
+}
+
+#signup_box_form li label {
+display: block;
+float: left;
+width: 100px;
+text-align: right;
+line-height: 2.3;
+font-size: 80%;
+font-weight: bold;
+color: #333;
+margin-right: 10px;
+}
+
+.inputfield
+{
+	margin-top: 2.5px;
+	width:57.6%;
+	height:8.7%;
+}
+
+.hint{
+
+line-height: 1;
+color: #666;
+margin-left: 35.5%;
+clear: both;
+font-size:11;
+}
+
+.action
+{
+margin: 0 0 8px 110px;
+text-align: left;
+overflow: hidden;
+float:left;
+}
+
+.signup_button
+{
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #afd47b), color-stop(5%, #afd47b), color-stop(5%, #8bc03f), color-stop(100%, #69a219));
+background: -moz-linear-gradient(top, #afd47b 0%,#69a219 100%);
+border-color: #693;
+color: #fff;
+font-weight: bold;
+border-width: 1px;
+border-style: solid;
+border-radius: 3px;
+font-size: 12px;
+line-height: 1.35;
+padding: 3px 10px 2px;
+vertical-align: top;
+width: auto;
+}
+.message{
+	margin: 0 0 8px 110px;
+	text-align: left;
+overflow: hidden;
+font-size:11px;
+clear:both;
+}
+.message2{
+	color:#069;
+	text-decoration: none;
+}
+.message2:hover{
+	text-decoration: underline;
+}
+
+#search_box
+{
+	margin-top: 20%;
+	margin-left:10px;
+border-top: 1px solid #CCC;
+padding: 10px 0 0;
+width: 960px;
+clear: both;
+}
+#search{
+clear: both;
+overflow: hidden;
+text-align: center;
+}
+#search h3{
+	display: inline;
+padding-right: 10px;
+color: #666;
+font-size: 105%;
+font-weight: bold;
+}
+
+.inputfield2{
+	width:16%;
+	min-height:3.3%;
+
+	margin-right: 5px;
+
+}
+
+#search_box
+{
+	clear:both;
+}
+#directory{
+	border-bottom: 0;
+margin: 2px 0 20px;
+padding-bottom: 0;
+text-align: center;
+font-size: 11px;
+}
+#directory h3{
+	display: inline;
+margin: 0;
+padding: 0 0 0 8px;
+color: #666;
+font-weight: normal;
+font-size: 11px;
+}
+#directory ol{
+	border-right: 0;
+line-height: 1.5;
+margin: 0;
+padding: 0 4px 0 0;
+display: inline;
+font-size: 11px;
+list-style: none;
+}
+#directory ol li{
+	display: inline;
+}
+.primary a{
+	color:#069;
+	text-decoration: none;
+}
+.primary a:hover{
+
+	text-decoration: underline;
+}
+#directory .country-search
+{
+display: block;
+}
+#agreement
+{
+	text-align: left;
+font-size: 70%;
+color: #666;
+border-top: 1px solid #ccc;
+padding: 20px 0 10px;
+}
+#agreement a
+{	color:#069;
+	text-decoration: none;
+
+}
+.button_2{
+
+
+border-width: 1px;
+border-style: solid;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+cursor: pointer;
+font-size: 12px;
+line-height: 1.35;
+margin: 0;
+overflow: visible;
+padding: 3px 10px 2px;
+
+vertical-align: top;
+width: auto;
+border-color: #999;
+color: #666 ;
+}
+.fieldgroup {
+padding-left: 110px;
+}
+.fieldgroup .inputfield
+{
+	margin-top: 2.5px;
+	width:89%;
+	height:8.7%;
+}
+.error {
+font-size: 12px;
+font-weight: bold;
+color: #900;
+}
+#signup_error1, #signup_error2
+{
+	display: none;
+}
+ul, li{
+	list-style: none;
+}

@@ -1,0 +1,140 @@
+#body{
+	margin-top: 80px;
+	margin-bottom: 10px;
+	width: 980px;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+}
+
+div{
+	display: block;
+}
+
+.toop{
+	margin-top: 80px;
+	margin-bottom: 10px;
+}
+
+.mid_title{
+	margin: 0px 10px 20px 10px;
+	clear: both;
+}
+
+.mid_title h1{
+	font-size: 22px;
+	font-weight: bold;
+	color: #000;
+	line-height: 24px;
+}
+
+.mid_wrapper{
+	padding: 0px 10px;
+	float: left;
+	clear: both;
+}
+
+.mid_content{
+	clear: both;
+}
+
+.mid_content a{
+	color: #069;
+	text-decoration: none;
+}
+
+.mid_content a:hover{
+	text-decoration: underline;
+}
+
+ul.content{
+	margin: 0 0 20px 0;
+	overflow: visible;
+	list-style-type: disc;
+	zoom: 1;
+	float: left;
+}
+
+.mid_content li{
+	font-size: 13px;
+	margin: 0 0 10px 1.2em;
+	width: 38%;
+	float: left;
+}
+
+/*********** Foooooooterrrrr **************/
+
+
+#footer{
+	margin-top: 10px;
+	font-size: 12px;
+	line-height: 14px;
+	color: #666;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 974px;
+	border-top: 1px solid #ccc;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/*#footer .wrapper{
+	clear: both;
+}*/
+
+#bot_logo{
+	display: block;
+	float: left;
+	font-size: 12px;
+	border-right: 1px solid #ccc;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	margin-right: 8px;
+	padding-right: 8px;
+	vertical-align: baseline;
+	clear: both;
+}
+
+#bot_logo span{
+	background-image: url('/Project/images/footer_logo.png');
+	float: left;
+	height: 16px;
+	width: 62px;
+	text-align: left;
+	margin-right: 3px;
+	padding-right: 0px;
+	margin-top: -2px;
+	margin-bottom:  -2px;
+	text-indent: -119988px;
+}
+
+.legal{
+	list-style: none;
+	line-height: 14px;
+	font-size: 12px;
+}
+
+ul.legal li.last{
+	border-right: none;
+}
+
+ul.legal li{
+	display: inline;
+	font-size: 12px;
+	border-right: 1px solid #ccc;
+	margin-right: 8px;
+	padding-right: 8px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	float: left;
+}
+
+ul.legal li a{
+	text-decoration: none;
+	color: #069;
+}
+
+ul.legal li a:hover{
+	text-decoration: underline;
+	color: #069;
+}
