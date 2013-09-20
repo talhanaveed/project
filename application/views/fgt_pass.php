@@ -18,6 +18,7 @@
 					<h1 class = "mid_heading">Changing your password is simple</h1>
 					<p>Please enter your email address to get instructions.</p>
 					<div class = "text_box">
+						<span class = "error">The text you provided is too short (the minimum length is 3 characters, your text contains 1 characters).</span>
 						<input>
 					</div>
 					

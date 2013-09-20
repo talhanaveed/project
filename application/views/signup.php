@@ -45,12 +45,14 @@
 									<li>
 										<label>Email:</label>
 										<div class = "field">
+											<span class = "error">The text you provided is too short (the minimum length is 3 characters, your text contains 1 characters).</span>
 											<input type = "text" class = "focus">
 										</div>
 									</li>
 									<li>
 										<label>New Password:</label>
 										<div class = "field">
+											<span class = "error">The password you provided must have at least 6 characters.</span>
 											<input type = "text" class = "focus">
 										</div>
 										<p class = "note">6 or more characters</p>

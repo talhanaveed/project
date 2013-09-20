@@ -42,34 +42,44 @@
                 <li id="first-name">
             
                   <label>First Name:</label>
-
-                <input type="text" id="firstname" class="inputfield" >
-
+                  <div class = "temp">
+                    <span class = "error">Please enter a first name.</span>
+                    <input type="text" id="firstname" class="inputfield" >
+                  </div>
                 </li>
             
                 <li id="last-name">
             
-                <label >Last Name:</label>
-
-                <input type="text" id="lastname" class="inputfield">
+                  <label >Last Name:</label>
+                  <div class = "temp">
+                    <span class = "error">Please enter a last name.</span>
+                    <input type="text" id="lastname" class="inputfield">
+                  </div>
+                
 
                 </li>
             
                 <li id="email-address">
             
-                <label>Email:</label>
-
-                 <input type="email" id="email" name="email" class="inputfield">
+                  <label>Email:</label>
+                  <div class = "temp">
+                    <span class = "error">Please enter a valid email address.</span>
+                    <!-- <span class = "error">The text you provided is too short (the minimum length is 3 characters, your text contains 1 characters).</span> -->
+                    <input type="email" id="email" name="email" class="inputfield">
+                  </div>
               
                 </li>
 
                 <li id="password">
             
                 <label >Password:</label>
-            
-             
-                  
+
+                <div class = "temp">
+                  <span class = "error">Please enter a password.</span>
+                  <!-- <span class = "error">The password you provided must have at least 6 characters.</span> -->
                   <input type="password" id="email" name="password" class="inputfield">
+                </div>
+                
                 <p class="hint">6 or more characters</p>
                
 
@@ -314,6 +324,7 @@
   </div>
 
 </div>
+
 <!--*********************************************************************-->
 
 
