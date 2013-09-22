@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>Why linkedin..? | LinkedIn</title>
+		<title>User Agreement | LinkedIn</title>
 
 		<link rel="stylesheet" type="text/css" href="/Project/styles/usr_agreement.css">
 	</head>

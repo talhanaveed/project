@@ -32,6 +32,7 @@ div{
 	padding: 0px 10px;
 	float: left;
 	clear: both;
+		border-bottom: 1px solid #ccc;
 }
 
 .mid_content{
@@ -47,7 +48,7 @@ div{
 	text-decoration: underline;
 }
 
-ul.content{
+ ul.content	{
 	margin: 0 0 20px 0;
 	overflow: visible;
 	list-style-type: disc;
@@ -55,11 +56,13 @@ ul.content{
 	float: left;
 }
 
-.mid_content li{
+.mid_content li {
 	font-size: 13px;
 	margin: 0 0 10px 1.2em;
 	width: 38%;
 	float: left;
+		list-style-type: disc;
+	
 }
 
 /*********** Foooooooterrrrr **************/
@@ -73,7 +76,7 @@ ul.content{
 	padding-top: 10px;
 	padding-bottom: 10px;
 	width: 974px;
-	border-top: 1px solid #ccc;
+
 	margin-right: auto;
 	margin-left: auto;
 }

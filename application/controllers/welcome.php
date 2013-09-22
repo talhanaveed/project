@@ -2,6 +2,11 @@
 
 class Welcome extends CI_Controller {
 
+	function __construct(){
+		parent::__construct();
+		$this->check_isvalidated();
+		
+	}
 	/**
 	 * Index Page for this controller.
 	 *
@@ -19,7 +24,19 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('welcome_message');
+		$data = '';
+		$data['heading'] = 'DHALIA | Home';
+		
+		$this->load->view('common/header',$data);
+		$this->load->view('common/nav',$data);
+		$this->load->view('welcome_message',$data);
+		$this->load->view('common/footer',$data);
+	}
+	private function check_isvalidated(){
+		$this->load->helper('url');
+		if(! $this->session->userdata('validated')){
+			redirect('login/login', 'refresh');
+		}
 	}
 }
 

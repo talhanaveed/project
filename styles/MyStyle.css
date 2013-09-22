@@ -116,6 +116,7 @@ font-size: 80%;
 font-weight: bold;
 color: #333;
 margin-right: 10px;
+
 }
 
 .inputfield{
@@ -170,6 +171,7 @@ line-height: 1.35;
 padding: 3px 10px 2px;
 vertical-align: top;
 width: auto;
+cursor: pointer;
 }
 .message{
 	margin: 0 0 8px 110px;
@@ -305,6 +307,7 @@ padding-left: 110px;
 font-size: 12px;
 font-weight: bold;
 color: #900;
+display: none;
 }
 #signup_error1, #signup_error2
 {
@@ -312,4 +315,25 @@ color: #900;
 }
 ul, li{
 	list-style: none;
+}
+
+#alert {
+	margin-top: 10px;
+background: #fee url('/Project/images/global.png') no-repeat 7px -643px;
+padding-bottom: 4px;
+display: none;
+}
+div.alert2{
+
+color: #333;
+margin: 0;
+padding: 6px 7px 0px 35px;
+overflow: hidden;
+min-height: 28px;
+position: relative;
+font-size: 13px;
+}
+p, div.alert h3 {
+font-size: 13px;
+margin: 7px 21px 5px 7px;
 }

@@ -3,6 +3,7 @@
 		<title>Sign In | LinkedIn</title>
 	
 		<link rel="stylesheet" type="text/css" href="/Project/styles/login.css">
+		<script type="text/javascript" src="/Project/assets/js/common/login.js" ></script>
 	</head>
 
 	<body>
@@ -19,20 +20,31 @@
 			</div>
 
 			<div class = "body_wrapper">
+			    <div id="alert">
+							 <div class="alert2">
+							 <p><strong>There were one or more errors in your submission. Please correct the marked field(s) below.</strong></p>
+							 </div>
+							</div>
 				<div class = "body_main">
-					<form id = "sign">
+					<form id = "sign" name="signin-form" method="POST" onclick="return validateForm()">
 						<ul>
 							<li class = "text_list">
 								<label for = "email">Email address:</label>
 								<div class = "sign_field">
-									<input class = "innn">
+									<span class = "error" id="email-error">Please enter a valid email address.</span>
+									 <span class = "error" id="email-error2">The text you provided is too short (the minimum length is 3 characters, your text contains 1 characters).</span>
+										
+									<input class = "innn" name="email-field">
 								</div>
 							</li>
 
 							<li class = "text_list">
 								<label for = "pass">Password:</label>
 								<div class = "sign_field">
-									<input class = "innn">
+									<span class = "error" id="pass-error">Please enter a password.</span>
+									<span class = "error" id="pass-error2">The password you provided must have at least 6 characters.</span>
+									<input class = "innn" name="pass-field">
+
 									<a href = "forgotPassword" class = "sign_link">Forgot password?</a>
 								</div>
 							</li>
@@ -44,7 +56,7 @@
 							</li>
 
 						</ul>
-					</form>
+				
 				</div>
 			</div>
 		</div>

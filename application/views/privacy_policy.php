@@ -2,6 +2,8 @@
 <html>
 
 <head>
+
+	<title>Privacy Policy | LinkedIn</title>
 <link href="/Project/styles/policy.css" rel="stylesheet" type="text/css" />
 
 </head>

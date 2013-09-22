@@ -14,16 +14,21 @@
 
 		<div id = "body">
 			<div class = "wrapper">
+				   <div id="alert">
+							 <div class="alert2">
+							 <p><strong>Please correct the marked field(s) below.</strong></p>
+							 </div>
+							</div>
 				<form>
 					<h1 class = "mid_heading">Changing your password is simple</h1>
 					<p>Please enter your email address to get instructions.</p>
 					<div class = "text_box">
-						<span class = "error">The text you provided is too short (the minimum length is 3 characters, your text contains 1 characters).</span>
-						<input>
+						<span class = "error" id="error1">Please enter a valid email address.</span>
+						<input type="text" id="text1">
 					</div>
 					
 					<p class = "cont_but">
-						<input type = "submit" value = "Continue" class = "in_but">
+						<input type = "submit" value = "Continue" class = "in_but" onclick="return validateInput()">
 					</p>
 				</form>
 			</div>
@@ -47,6 +52,20 @@
 				
 			</div>
 		</div>
+<script type="text/javascript">
 
+	function validateInput()
+	{
+		var val=document.getElementById('text1').value;
+		if(val.length<3)
+		{
+			document.getElementById('error1').style.display='block';
+			document.getElementById('alert').style.display='block';
+			return false;
+		}
+		return true;
+	}
+
+</script>
 	</body>
 </html>

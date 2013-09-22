@@ -2,6 +2,7 @@
 <html>
 
 <head>
+	<title>OOPS! | LinkedIn</title>
 <link href="/Project/styles/temp.css" rel="stylesheet" type="text/css" />
 
 </head>

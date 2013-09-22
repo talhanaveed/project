@@ -3,7 +3,7 @@
 
 <head>
 <link href="/Project/styles/MyStyle.css" rel="stylesheet" type="text/css" />
-
+<script type="text/javascript" src="/Project/assets/js/common/main_screen.js" ></script>
 </head>
 
 <body>
@@ -13,6 +13,11 @@
 <div id="body" >
 
 	<div id="mid-content">
+          <div id="alert">
+ <div class="alert2">
+ <p><strong>There were one or more errors in your submission. Please correct the marked field(s) below.</strong></p>
+ </div>
+</div>
 
 		<div id="content1">
 			<h1>
@@ -36,15 +41,16 @@
         </div>
               
             <div id="signup_box_form">
-                <form>
-
+  
+              <form method="POST" id="signup-form" name="signup-form" onsubmit="return validateForm();" >
+                <input type="hidden" name="isJsEnabled" value="true">    
                 <ul>
                 <li id="first-name">
             
                   <label>First Name:</label>
                   <div class = "temp">
-                    <span class = "error">Please enter a first name.</span>
-                    <input type="text" id="firstname" class="inputfield" >
+                    <span class = "error" id="firstname-error">Please enter a first name.</span>
+                    <input type="text" id="firstname" class="inputfield" name="firstname">
                   </div>
                 </li>
             
@@ -52,8 +58,8 @@
             
                   <label >Last Name:</label>
                   <div class = "temp">
-                    <span class = "error">Please enter a last name.</span>
-                    <input type="text" id="lastname" class="inputfield">
+                    <span class = "error" id="lastname-error">Please enter a last name.</span>
+                    <input type="text" id="lastname" class="inputfield" name="lastname">
                   </div>
                 
 
@@ -63,9 +69,9 @@
             
                   <label>Email:</label>
                   <div class = "temp">
-                    <span class = "error">Please enter a valid email address.</span>
-                    <!-- <span class = "error">The text you provided is too short (the minimum length is 3 characters, your text contains 1 characters).</span> -->
-                    <input type="email" id="email" name="email" class="inputfield">
+                    <span class = "error" id="email-error">Please enter a valid email address.</span>
+                   <span class = "error" id="email-error2">The text you provided is too short (the minimum length is 3 characters, your text contains 1 characters).</span>
+                    <input type="text" id="email" name="email-field" class="inputfield" >
                   </div>
               
                 </li>
@@ -75,9 +81,9 @@
                 <label >Password:</label>
 
                 <div class = "temp">
-                  <span class = "error">Please enter a password.</span>
-                  <!-- <span class = "error">The password you provided must have at least 6 characters.</span> -->
-                  <input type="password" id="email" name="password" class="inputfield">
+                  <span class = "error" id="pass-error">Please enter a password.</span>
+                  <span class = "error" id="pass-error2">The password you provided must have at least 6 characters.</span>
+                  <input type="password" id="email" name="pass-field" class="inputfield" name="password">
                 </div>
                 
                 <p class="hint">6 or more characters</p>
@@ -86,9 +92,9 @@
        
                 </li>
                 </ul> 
-                
+          
                 <p class="action">
-                <input type="submit" name="" value="Join Now" id="btn-submit" class="signup_button" onclick="validateForm()"> <a>*</a>
+                <input type="submit" name="" value="Join Now" id="btn-submit" class="signup_button" > <a>*</a>
                 </p>
                 
               <div>
@@ -97,7 +103,7 @@
                 </p>
               </div>
 
-            </form>
+
 		    </div>    
 	</div>
 

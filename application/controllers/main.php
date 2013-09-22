@@ -5,6 +5,7 @@
 		}
 
 		function viewMain(){
+			$this->load->helper('url');
 			$this->load->view('header');
 			$this->load->view('main_screen');
 			$this->load->view('footer');

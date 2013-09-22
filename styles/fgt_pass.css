@@ -133,4 +133,26 @@ span.error{
 	color: #900;
 	font-weight: bold;
 	margin-right: 30%;
+	display: none;
+}
+#alert {
+	margin-top: 10px;
+background: #fee url('/Project/images/global.png') no-repeat 7px -643px;
+padding-bottom: 4px;
+display: none;
+margin-bottom: 5px;
+}
+div.alert2{
+
+color: #333;
+margin: 0;
+padding: 6px 7px 0px 35px;
+overflow: hidden;
+min-height: 28px;
+position: relative;
+font-size: 13px;
+}
+p, div.alert h3 {
+font-size: 13px;
+margin: 7px 21px 5px 7px;
 }
