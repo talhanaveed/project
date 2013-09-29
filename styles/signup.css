@@ -10,7 +10,6 @@ div{
 
 #body{
 	padding: 0;
-
 	width: 80.5em;
 	min-width: 805px;
 	max-width: 40%;
@@ -19,39 +18,34 @@ div{
 }
 
 #top-header{
-	
-
-float: center;
-	min-width: 805px;
+	float: center;
+	min-width: 810px;
 	max-width: 55%;
-margin-left: auto;
-margin-right: auto;
+	margin: 0 auto;
 }
+
 #logo-linkedin {
-float: left;
-margin-left: auto;
-margin-right: auto;
-position: relative;
-max-width: 20%;
+	float: left;
+	margin: 8px 10px 0 4px;
+	/*position: relative;*/
+	/*max-width: 20%;*/
 }
 
 .wrapper{
-	float:left;
-	min-width: 830px;
-	max-width: 60%;
-	margin-left: auto;
-	margin-right: auto;
+	float: left;
+	min-width: 835px;
+	max-width: 55%;
+	height: 39px;
 }
 #message{
-	
-margin:0;
-color: #666;
-float: right;
-font-weight: normal;
-font-size: 13px;
+	margin:	0;
+	color: #666;
+	float: right;
+	font-weight: normal;
+	font-size: 11px;
+	margin-top: 10px;
 }
 .wrapper2{
-	margin-top: 10px;
 	padding: 15px;
 	background: #fff;
 	border: 1px solid #ccc;
@@ -100,6 +94,7 @@ font-size: 13px;
 
 form ul{
 	list-style-type: none;
+	padding-left: 20px;
 }
 
 form ul li{
@@ -121,6 +116,7 @@ form label{
 
 .temp{
 	float: left;
+	width: 58%;
 }
 
 .field{
