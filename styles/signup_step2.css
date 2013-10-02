@@ -7,6 +7,8 @@ div{
 	display: block;
 }
 
+/************************** - BODY - *****************************/
+
 #header, #body, #footer{
 	/*width: 80.5em;*/
 	/*min-width: 805px;*/
@@ -14,9 +16,6 @@ div{
 	width: 805px;
 	clear: both;
 	margin: 0 auto;
-}
-
-.temp{
 }
 
 .logo{
@@ -70,27 +69,72 @@ div{
 	font-family: Arial,sans-serif;
 }
 
-.infolist{
-	padding-top: 10px;
-	list-style-type: none;
-	margin: 0;
-	float: left;
-	padding-left: 70px;
+.progress{
+	float: right;
+	font-size: 13px;
 }
 
-.infolist li{
-	list-style-type: none;
+.summ{
+	float: left;
+	line-height: 1.2;
+}
+
+.progress-meter{
+	border: 1px solid #666;
+	background: transparent url('/Project/images/progress_quarter.png') repeat-x 0 0;
+	float: right;
+	width: 100%;
 	display: block;
+	height: 12px;
+}
+
+.has-progress{
+	border-right: 1px solid #666;
+	background: transparent url('/Project/images/progress_quarter.png') repeat-x 0 -50px;
+	display: block;
+	height: 12px;
+	width: 25px;	
+}
+
+.cover{
+	width: 550px;
+	margin-left: 120px;
+	background: #DDF0F8;
+	border: 1px solid #9acce6;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
 	float: left;
-	margin-bottom: 10px;
 }
 
-.infolist li em{
-	color: #900;
-	margin-right: 5px;
+.content{
+	padding: 15px 20px 0 20px;
+	padding-bottom: -10px;
+	float: left;
 }
 
-.infolist label{
+.intro{
+	margin: 0 10px 15px 10px;
+	font-size: 13px;
+	float: left;
+}
+
+.fieldgroup{
+	display: inline-block;
+}
+
+.fieldgroup input{
+	width: 310px;
+	outline: none;
+	float: left;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+}
+
+form ul li label{
 	font-size: 13px;
 	font-weight: bold;
 	color: #333;
@@ -100,143 +144,9 @@ div{
 	display: block;
 }
 
-.fieldgroup{
-	display: inline-block;
-}
-
-.infolist select{
-	width: 315px;
-	outline: none;
-}
-
-.fieldgroup input{
-	width: 310px;
-	outline: none;
-	float: left;
-}
-
-.country{
-	margin-left: 17px;
-}
-
-.inner li label{
-	font-weight: normal;
-}
-
-.inner{
-	display: inline;
-}
-
-.Iam{
-	margin-left: -15px;
-}
-
-.check-box{
-	margin-left: 82px;
-}
-
-.check-box label{
-	font-weight: normal;
-	font-size: 11px;
-	display: inline;
-	float: none;
-}
-
-.job{
-	margin-left: 15px;
-}
-
-.company{
-	margin-left: 7px;
-}
-
-#jjj{
-	margin-bottom: 0px;
-	display: block;
-}
-
-#seek{
-	margin: 0;
-	display: none;
-}
-
-.sjob{
-	margin-left: -59px;
-}
-#cjprofile{
-	display:none;
-}
-.employe-profile{
-	margin-left: 16px;
-}
-#time-period
-{
-	display:none;
-}
-.scompany{
-	margin-left: -69px;
-}
-
-#cprofile{
-	display: block;
-}
-
-.time em{
-	color: #900;
-	margin-right: 5px;
-}
-#school{
-	display:none;
-}
-#Dates{
-	display: none;
-}
-.date em{
-	color: #900;
-	margin-right: 5px;
-}
-
-.date{
-	margin-left: -70px;
-}
-
-.sch em{
-	color: #900;
-	margin-right: 5px;
-}
-
-.sch{
-	margin-left: -45px;
-}
-
-.time{
-	margin-left: -50px;
-}
-
-.start-year select{
-	width: 80px;
-}
-
-.end-year select{
-	width: 80px;
-}
-
-.to{
-	font-weight: normal;
-	margin: 5px 10px 0 10px;
-}
-
-.tip{
-	margin: 0 0 10px 84px;
-	font-size: 11px;
-	color: #666;
-	display:none;
-}
-
-
 .btn{
-	margin-left: 160px;
-	margin-top: 15px; 
+	margin-left: 123px;
+	margin-top: 5px;
 }
 
 .btn input{
@@ -267,55 +177,35 @@ div{
 	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(115, 174, 201)), color-stop(0.05, rgb(115, 174, 201)), color-stop(0.05, rgb(51, 138, 176)), to(rgb(5, 113, 166)));
 }
 
-.last{
-	margin-left: 160px;
-	margin-top: 15px;
+.note{
+	margin-left: 123px;
+	margin-top: 5px;
 	font-size: 11px;
 	color: #666;
 }
 
-.last p em{
-	color: #900;
-	margin-right: 5px;
-}
-
-.feat{
-	width: 280px;
-	float: right;
-	margin-top: 10px;
-	display: inline;
-	position: relative;
-	z-index: 1;
-}
-
-.features{
-	border: 1px solid #baddee;
-	padding: 10px;
-}
-
-.features h3{
-	background: #fff url('/Project/images/bulb.png') no-repeat;
-	font-weight: bold;
-	margin-bottom: 2px;
-	margin-top: 0;
-	padding-left: 20px;
-	font-size: 14px;
-}
-
-.features ul{
-	list-style: none;
-	padding: 0;
-	margin: 0;
-}
-
-.features ul li{
+.skip{
+	float: left;
+	margin: 0 0 25px 121px;
+	width: 550px;
 	font-size: 13px;
-	margin-top: 8px;
-	background: #fff url('/Project/images/bullet.png') no-repeat scroll 0 -297px;
-	padding-left: 15px;
+	display: inline;
 }
 
-/*****************************************/
+.skip a{
+	float: right;
+	text-decoration: none;
+	color: #069;
+	margin-top: 8px;
+}
+
+.skip p{
+	margin-left: 4px;
+	margin-top: 8px;
+	float: right;
+}
+
+/************************** - FOOTER -****************************/
 
 #footer {
 	border: none;
@@ -343,4 +233,3 @@ p#copyright {
 p#terms-of-use {
 	margin-bottom: 8px;
 }
-

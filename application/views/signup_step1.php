@@ -444,7 +444,7 @@
 
 		<div id="footer">
  			<div id="legal">
-	 			<p id="copyright">LinkedIn Corporation 2013</p>
+	 			<p id="copyright">LinkedIn Corporation &copy 2013</p>
 				<p id="terms-of-use">
 	 			Commercial use of this site without express authorization is prohibited.
 				</p>

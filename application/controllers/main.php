@@ -64,5 +64,10 @@
 			$this->load->view('signup_step1');
 		}
 
+		function signup_step2()
+		{
+			$this->load->view('signup_step2');
+		}
+
 	};
 ?>
