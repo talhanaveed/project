@@ -8,21 +8,27 @@ div{
 	display: block;
 }
 
-#body{
+/*#body{
 	padding: 0;
 	width: 80.5em;
 	min-width: 805px;
 	max-width: 40%;
 	margin-left: auto;
 	margin-right: auto;
+}*/
+
+#top-header, #body, #footer{
+	width: 805px;
+	clear: both;
+	margin: 0 auto;
 }
 
-#top-header{
+/*#top-header{
 	float: center;
 	min-width: 810px;
 	max-width: 55%;
 	margin: 0 auto;
-}
+}*/
 
 #logo-linkedin {
 	float: left;
@@ -265,8 +271,6 @@ text-align: center;
 #footer {
 border: none;
 padding: 0 0 0 8px;
-width: 80.5em;
-min-width: 805px;
 font-size: 13px;
 margin: 20px auto;
 padding: 10px 0;
@@ -280,7 +284,6 @@ border-right: 1px solid #ccc;
 padding: 0 8px 0 0;
 margin-right: 8px;
 margin-top:0;
-margin-left: 12%;
 -webkit-text-size-adjust: 165%;
 }
 p#terms-of-use {
