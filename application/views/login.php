@@ -52,7 +52,6 @@
 							<li class = "li_but">
 								<input type = "submit" value = "Sign In">
 								<span>or<a href = "joinToday" class = "sign_link">Join LinkedIn</a></span>
-								
 							</li>
 
 						</ul>

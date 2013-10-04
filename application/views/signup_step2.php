@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Signup_Step1</title>
+		<title>Signup_Step2</title>
 		<link rel="stylesheet" type="text/css" href="/Project/styles/signup_step2.css">
 		<!-- <script type="text/javascript" src="/Project/assets/js/signup/step1.js" ></script> -->
 	</head>
@@ -26,16 +26,16 @@
 								Grow your network on LinkedIn
 							</h1>
 
-							<div class = "progress">
+							<!-- <div class = "progress"> -->
 								
-								<span class = "progress-meter">
+								<div class = "progress-meter">
 									<span class = "has-progress"></span>
-								</span>
+								</div>
 
-								<span class = "summ">
-									Step <strong>2</strong> of <strong>8</strong>
-								</span>
-							</div>
+								<div class = "summ">
+									Step <strong>2</strong> of <strong>7</strong>
+								</div>
+							<!-- </div> -->
 						</div>
 
 						<div class = "cover">
