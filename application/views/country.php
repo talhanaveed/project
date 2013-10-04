@@ -3,7 +3,7 @@
 	<head>
 		<title>Browse Members by Country| LinkedIn</title>
 
-		<link rel="stylesheet" type="text/css" href="/Project/styles/country.css">
+		<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/css/styles/country.css">
 	</head>
 
 	<body>

@@ -2,10 +2,11 @@
 	class main extends CI_Controller{
 		function main(){
 			parent :: __construct();
+			$this->load->helper('url');
 		}
 
 		function viewMain(){
-			$this->load->helper('url');
+			
 			$this->load->view('header');
 			$this->load->view('main_screen');
 			$this->load->view('footer');
@@ -30,12 +31,7 @@
 			$this->load->view('what_linkedin');
 			$this->load->view('footer');
 		}
-		function login()
-		{
-			$this->load->view('header');
-			$this->load->view('login');
-
-		}
+		
 		function country()
 		{
 			$this->load->view('header');
@@ -58,26 +54,15 @@
 		{
 			$this->load->view('signup');
 		}
-
-		function signup_step1()
-		{
-			$this->load->view('signup_step1');
-		}
-
-		function signup_step2()
-		{
-			$this->load->view('signup_step2');
-		}
-
-		function signup_step3()
-		{
-			$this->load->view('signup_step3');
-		}
-
 		function signup_step4()
 		{
-			$this->load->view('signup_step4');
+			$this->load->view('signup/signup_step4');
+		}
+		function signup_step3()
+		{
+			$this->load->view('signup/signup_step3');
 		}
 
+	
 	};
 ?>

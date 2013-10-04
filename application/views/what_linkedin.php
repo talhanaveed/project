@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<title>Why linkedin..? | LinkedIn</title>
-		<link rel="stylesheet" type="text/css" href="/Project/styles/what_linked.css">
+		<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/css/styles/what_linked.css">
 	</head>
 
 	<body>
@@ -45,7 +45,7 @@
 					<div class = "mid_last">
 						<div class = "join">
 							<p class = "free">It's free.</p>
-							<a href = "joinToday" class = "join_button">Join now</a>
+							<a href = "<?php echo base_url();?>index.php/signup/signup" class = "join_button">Join now</a>
 						</div>
 					</div>
 

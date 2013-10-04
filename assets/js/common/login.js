@@ -1,4 +1,5 @@
 
+  
 
            function validateForm()
                   { 
@@ -29,7 +30,7 @@
                           
                           check=1;
                           }
-                     else if(val4.length<6 && val3.length>0)
+                     else if(val4.length<4 && val3.length>0)
                           {
                            document.getElementById('pass-error2').style.display='inline';
                           check=1;

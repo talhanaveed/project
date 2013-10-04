@@ -3,7 +3,9 @@
 
 <head>
 	<title>OOPS! | LinkedIn</title>
-<link href="/Project/styles/temp.css" rel="stylesheet" type="text/css" />
+<link href="<?php echo base_url();?>/assets/css/styles/temp.css" rel="stylesheet" type="text/css" />
+<link href="<?php echo base_url();?>/assets/css/bootstrap.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="<?php echo base_url();?>/assets/js/common/test.js" ></script>
 
 </head>
 
@@ -11,6 +13,14 @@
 
 	<div id="body" >
 		<h1>THIS PAGE IS UNDER CONSTRUCTION</h1>
+
+		<input type="radio" name= "check1" id="check1"  value="emp" onclick="change()"> show</input>
+
+		<input type="radio" name= "check1" id="check2"  value="stu" onclick="change()"> hide</input>
+
+<div id="container" style= "display:none;">
+	<a href="<?php echo base_url();?>index.php/login/login/do_logout" class="btn btn-large btn-primary">Log Out</a>
+</div>
 
 </div>
 </body>

@@ -2,7 +2,7 @@
 	<head>
 		<title>User Agreement | LinkedIn</title>
 
-		<link rel="stylesheet" type="text/css" href="/Project/styles/usr_agreement.css">
+		<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/css/styles/usr_agreement.css">
 	</head>
 
 	<body>

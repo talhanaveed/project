@@ -4,7 +4,7 @@
 <head>
 
 	<title>Privacy Policy | LinkedIn</title>
-<link href="/Project/styles/policy.css" rel="stylesheet" type="text/css" />
+<link href="<?php echo base_url();?>/assets/css/styles/policy.css" rel="stylesheet" type="text/css" />
 
 </head>
 
@@ -28,7 +28,7 @@
 	        		 		 <h1>Your Privacy Matters</h1>
 	        				  <p class="first">At LinkedIn, our fundamental philosophy is "members first." That value powers all of the decisions we make, including how we gather and respect your personal information.</p>
 
-	        		  			<p>We've crafted the policy below to be as clear and straightforward as possible. Our aim is for you--our members--to always feel informed and empowered with respect to your privacy on LinkedIn. <a href="viewTemp">Visit our Safety Center</a> for tips on using LinkedIn smartly and securely.</p>
+	        		  			<p>We've crafted the policy below to be as clear and straightforward as possible. Our aim is for you--our members--to always feel informed and empowered with respect to your privacy on LinkedIn. <a href="<?php echo base_url();?>index.php/main/viewTemp">Visit our Safety Center</a> for tips on using LinkedIn smartly and securely.</p>
 	        			</div><!-- description -->
 	        		</div><!-- header-text -->
 
@@ -72,7 +72,7 @@
 		       				<div class="full">
 						        <p>
 						          
-						              Our Privacy Policy has been updated to give you a better understanding of how we treat your data and also to call your attention to new features. Please review this Privacy Policy. <a  href="viewTemp">Please click here to read our summary of the changes</a>.
+						              Our Privacy Policy has been updated to give you a better understanding of how we treat your data and also to call your attention to new features. Please review this Privacy Policy. <a  href="<?php echo base_url();?>index.php/main/viewTemp">Please click here to read our summary of the changes</a>.
 						            
 						        </p>
 						        <p>LinkedIn's mission is to connect the world's professionals to enable them to be more productive and successful. Our registered users ("Members") share their professional identities, engage with their network, exchange knowledge and professional insights, and find business opportunities.  We believe that our service allows our Members to effectively compete and achieve their full career potential. The cornerstone of our business is to focus on our Members first.</p>
@@ -109,7 +109,7 @@
 			        <p>Our Privacy Policy applies to anyone with a LinkedIn account. If you live in the U.S., LinkedIn Corporation controls your information. If you live outside the U.S., LinkedIn Ireland Limited controls your information.</p>
 			      </div>
 			      <div class="full">
-			        <p>If you reside in the United States, then the personal information provided to or gathered by LinkedIn is controlled by LinkedIn Corporation, 2029 Stierlin Court, Mountain View, California 94043. If you reside outside the United States, then the personal information provided to or gathered by LinkedIn is controlled by LinkedIn Ireland Limited, Gardner House, Wilton Place, Wilton Plaza, Dublin 2, Ireland. If you have any concern about providing information to us or having such information displayed on the LinkedIn services or otherwise used in any manner permitted in this Privacy Policy and the User Agreement, you should not become a Member of LinkedIn or visit our website. If you have already registered, you should <a href="viewTemp">close your account</a>. We collect your personal information in the following ways:</p>
+			        <p>If you reside in the United States, then the personal information provided to or gathered by LinkedIn is controlled by LinkedIn Corporation, 2029 Stierlin Court, Mountain View, California 94043. If you reside outside the United States, then the personal information provided to or gathered by LinkedIn is controlled by LinkedIn Ireland Limited, Gardner House, Wilton Place, Wilton Plaza, Dublin 2, Ireland. If you have any concern about providing information to us or having such information displayed on the LinkedIn services or otherwise used in any manner permitted in this Privacy Policy and the User Agreement, you should not become a Member of LinkedIn or visit our website. If you have already registered, you should <a href="<?php echo base_url();?>index.php/main/viewTemp">close your account</a>. We collect your personal information in the following ways:</p>
 			      </div>
 			    </div>
 
@@ -133,7 +133,7 @@
 			        <p>You can add professional details – like your job title, education, and skills – to your profile.  A complete profile helps you be found by other people for opportunities. It also means we can show you relevant ads and content.</p>
 			      </div>
 			      <div class="full">
-			        <p>After you create an account, you may choose to provide additional information on your LinkedIn <a href="viewTemp">profile</a>, such as descriptions of your skills, professional experience, and educational background. You can list honors, awards, professional affiliations, LinkedIn Group memberships, networking objectives, companies or individuals that you follow, and other information including content. With your approval, your connections may provide recommendations and endorsements of you. Providing additional information enables you to derive more benefit from LinkedIn by helping you express your professional identity; find other professionals, opportunities, and information; and help recruiters find you. It also enables us to serve you ads and other relevant content on and off LinkedIn.</p>
+			        <p>After you create an account, you may choose to provide additional information on your LinkedIn <a href="<?php echo base_url();?>index.php/main/viewTemp">profile</a>, such as descriptions of your skills, professional experience, and educational background. You can list honors, awards, professional affiliations, LinkedIn Group memberships, networking objectives, companies or individuals that you follow, and other information including content. With your approval, your connections may provide recommendations and endorsements of you. Providing additional information enables you to derive more benefit from LinkedIn by helping you express your professional identity; find other professionals, opportunities, and information; and help recruiters find you. It also enables us to serve you ads and other relevant content on and off LinkedIn.</p>
 			      </div>
 			    </div>
 
@@ -156,7 +156,7 @@
 			        <p>When you contact our Help Center, we collect information to respond to your questions and better serve you.</p>
 			      </div>
 			      <div class="full">
-			        <p>When you contact LinkedIn's <a href="viewTemp">Help Center</a>, we collect information that helps us categorize your question, respond to it, and, if applicable, investigate any breach of our User Agreement or this Privacy Policy.  We also use this information to track potential problems and trends and customize our support responses to better serve you.</p>
+			        <p>When you contact LinkedIn's <a href="<?php echo base_url();?>index.php/main/viewTemp">Help Center</a>, we collect information that helps us categorize your question, respond to it, and, if applicable, investigate any breach of our User Agreement or this Privacy Policy.  We also use this information to track potential problems and trends and customize our support responses to better serve you.</p>
 			      </div>
 			    </div>
 
@@ -174,10 +174,10 @@
 			      <h3 class="copy-header">1.7. Using Third-Party Services and Visiting Third-Party Sites</h3>
 			      <div class="brief">
 			        <p>We collect information when you use your LinkedIn account to sign in to other sites or services, and when you view web pages that include LinkedIn plugins.</p>
-			        <p>You can <a href="viewTemp">opt out of our collection of plugin impressions</a> anytime.</p>
+			        <p>You can <a href="<?php echo base_url();?>index.php/main/viewTemp">opt out of our collection of plugin impressions</a> anytime.</p>
 			      </div>
 			      <div class="full">
-			        <p>We receive information when you use your LinkedIn account to log in to a third-party website or application. Also, when you visit a third-party site that embeds LinkedIn professional plugins (such as "Share on LinkedIn" for publishers) we receive information that those pages have loaded in your web browser.  If you are logged in as a LinkedIn Member when you visit sites with LinkedIn plugins, we use this information to recommend tailored content to you.  LinkedIn will use this information to personalize the LinkedIn-provided functionality on third-party sites, including providing you insights from your LinkedIn network and allowing you to share information with your network (1st and 2nd degree connection on LinkedIn). Users wishing to disable this personalization may <a href="viewTemp">opt out</a> here. LinkedIn's retention of this data is addressed in Section 3.2.  We do not use this information for advertising. LinkedIn may provide reports containing aggregated impression information to companies hosting LinkedIn plugins and similar technologies to help them measure LinkedIn-generated traffic to their websites.  You can opt out of LinkedIn using your impression data by clicking <a href="viewTemp">here</a>.</p>
+			        <p>We receive information when you use your LinkedIn account to log in to a third-party website or application. Also, when you visit a third-party site that embeds LinkedIn professional plugins (such as "Share on LinkedIn" for publishers) we receive information that those pages have loaded in your web browser.  If you are logged in as a LinkedIn Member when you visit sites with LinkedIn plugins, we use this information to recommend tailored content to you.  LinkedIn will use this information to personalize the LinkedIn-provided functionality on third-party sites, including providing you insights from your LinkedIn network and allowing you to share information with your network (1st and 2nd degree connection on LinkedIn). Users wishing to disable this personalization may <a href="<?php echo base_url();?>index.php/main/viewTemp">opt out</a> here. LinkedIn's retention of this data is addressed in Section 3.2.  We do not use this information for advertising. LinkedIn may provide reports containing aggregated impression information to companies hosting LinkedIn plugins and similar technologies to help them measure LinkedIn-generated traffic to their websites.  You can opt out of LinkedIn using your impression data by clicking <a href="<?php echo base_url();?>index.php/main/viewTemp">here</a>.</p>
 			      </div>
 			    </div>
 
@@ -187,14 +187,14 @@
 			        <p>We use cookies to help personalize your LinkedIn experience and show you relevant ads.</p>
 			      </div>
 			      <div class="full">
-			        <p>We use cookies and similar technologies, including mobile device identifiers, to help us recognize you, improve your LinkedIn experience, increase security, measure use of our Services, and serve advertising. You can control cookies through your browser settings and other tools. For more information, including the types of cookies found on LinkedIn, please read LinkedIn's <a href="viewTemp">Cookie Policy</a>.  By visiting LinkedIn, you consent to the placement of cookies and beacons in your browser in accordance with this Privacy Policy and LinkedIn's Cookie Policy.</p>
+			        <p>We use cookies and similar technologies, including mobile device identifiers, to help us recognize you, improve your LinkedIn experience, increase security, measure use of our Services, and serve advertising. You can control cookies through your browser settings and other tools. For more information, including the types of cookies found on LinkedIn, please read LinkedIn's <a href="<?php echo base_url();?>index.php/main/viewTemp">Cookie Policy</a>.  By visiting LinkedIn, you consent to the placement of cookies and beacons in your browser in accordance with this Privacy Policy and LinkedIn's Cookie Policy.</p>
 			      </div>
 			    </div>
 
 			    <div class="row">
 			      <h3 class="copy-header">1.9. Advertising Technologies and Web Beacons</h3>
 			      <div class="brief">
-			        <p>We target ads to you on and off LinkedIn, based on information you included in your profile and your use of LinkedIn. We give you a number of ways to opt out of these ads, including through the Ad Choices icon shown with any LinkedIn ads on third-party sites. If you do not want to receive LinkedIn ads on third-party sites, you can <a href="viewTemp">opt out</a>.</p>
+			        <p>We target ads to you on and off LinkedIn, based on information you included in your profile and your use of LinkedIn. We give you a number of ways to opt out of these ads, including through the Ad Choices icon shown with any LinkedIn ads on third-party sites. If you do not want to receive LinkedIn ads on third-party sites, you can <a href="<?php echo base_url();?>index.php/main/viewTemp">opt out</a>.</p>
 			      </div>
 			      <div class="full">
 			        <p>We target ads to Members both on and off LinkedIn through a variety of ad networks and ad exchanges, using:</p>
@@ -207,7 +207,7 @@
 			        </ul>
 			        <p>We do not share personally identifiable information with any third-party advertiser or ad network, although your profile is visible to other LinkedIn Members and through public search depending on your settings.</p>
 			        <p>LinkedIn may show you sponsored content in your Network Update Stream (NUS), which will be designated as sponsored content and will behave like other NUS updates. If you take social action (for example, if you "like or "comment" on the sponsored content), your action will be seen by your network and other LinkedIn Members who are shown the sponsored content after you have acted on it.</p>
-			        <p>LinkedIn ads that are delivered on third-party sites contain the label "Ads by LinkedIn."  You may opt out of these ads served to you on third-party sites <a href="viewTemp">here</a>. The Ad Choices icon shows you that we adhere to the Digital Advertising Alliance's self-regulatory principles for online behavioral advertising. Please see <a href="/redir/redirect?url=http%3A%2F%2Fwww%2Eaboutads%2Einfo&amp;urlhash=zRIq">http://www.aboutads.info</a> for details.</p>
+			        <p>LinkedIn ads that are delivered on third-party sites contain the label "Ads by LinkedIn."  You may opt out of these ads served to you on third-party sites <a href="<?php echo base_url();?>index.php/main/viewTemp">here</a>. The Ad Choices icon shows you that we adhere to the Digital Advertising Alliance's self-regulatory principles for online behavioral advertising. Please see <a href="/redir/redirect?url=http%3A%2F%2Fwww%2Eaboutads%2Einfo&amp;urlhash=zRIq">http://www.aboutads.info</a> for details.</p>
 			      </div>
 			    </div>
 
@@ -256,7 +256,7 @@
         <p>When you join LinkedIn, you acknowledge that information you provide on your profile can be seen by others and used by us as described in this Privacy Policy and our User Agreement.</p>
       </div>
       <div class="full">
-        <p>The personal information you provide to us may reveal or allow others to identify aspects of your life that are not expressly stated on your profile (for example, your picture or your name may reveal your gender). By providing personal information to us when you create or update your account and profile, you are expressly and voluntarily accepting the terms and conditions of LinkedIn's User Agreement and freely accepting and agreeing to our processing of your personal information in ways set out by this Privacy Policy. Supplying information to us, including any information deemed "sensitive" by applicable law, is entirely voluntary on your part. You have the right to withdraw or modify your consent to LinkedIn's collection and processing of the information you provide at any time, in accordance with the terms of this Privacy Policy and the User Agreement, by changing your <a href="viewTemp">Settings</a>, <a href="viewTemp">changing your profile</a>, or by <a href="viewTemp">closing your account</a>.</p>
+        <p>The personal information you provide to us may reveal or allow others to identify aspects of your life that are not expressly stated on your profile (for example, your picture or your name may reveal your gender). By providing personal information to us when you create or update your account and profile, you are expressly and voluntarily accepting the terms and conditions of LinkedIn's User Agreement and freely accepting and agreeing to our processing of your personal information in ways set out by this Privacy Policy. Supplying information to us, including any information deemed "sensitive" by applicable law, is entirely voluntary on your part. You have the right to withdraw or modify your consent to LinkedIn's collection and processing of the information you provide at any time, in accordance with the terms of this Privacy Policy and the User Agreement, by changing your <a href="<?php echo base_url();?>index.php/main/viewTemp">Settings</a>, <a href="<?php echo base_url();?>index.php/main/viewTemp">changing your profile</a>, or by <a href="<?php echo base_url();?>index.php/main/viewTemp">closing your account</a>.</p>
       </div>
     </div>
 

@@ -31,7 +31,7 @@
                     {
 
                  
-                      document.getElementById('email-error2').style.display='block';
+                      document.getElementById('email-error2').style.display='inline';
                       check=1;
 
                     }

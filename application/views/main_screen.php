@@ -2,8 +2,8 @@
 <html>
 
 <head>
-<link href="/Project/styles/MyStyle.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="/Project/assets/js/common/main_screen.js" ></script>
+<link href="<?php echo base_url();?>/assets/css/styles/MyStyle.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="<?php echo base_url();?>/assets/js/common/main_screen.js" ></script>
 </head>
 
 <body>
@@ -42,7 +42,7 @@
               
             <div id="signup_box_form">
   
-              <form method="POST" id="signup-form" name="signup-form" onsubmit="return validateForm();" >
+              <form method="POST" action="<?php echo base_url();?>index.php/signup/signup/process" id="signup-form" name="signup-form" onsubmit="return validateForm();" >
                 <input type="hidden" name="isJsEnabled" value="true">    
                 <ul>
                 <li id="first-name">
@@ -153,167 +153,167 @@
     
       
         <li>
-          <a href="viewTemp">a</a>
+          <a href="<?php echo base_url();?>index.php/main/viewTemp">a</a>
         </li>
       
     
       
         <li>
-          <a href="viewTemp">b</a>
+          <a href="<?php echo base_url();?>index.php/main/viewTemp">b</a>
         </li>
       
     
       
         <li>
-          <a href="viewTemp">c</a>
+          <a href="<?php echo base_url();?>index.php/main/viewTemp">c</a>
         </li>
       
     
       
         <li>
-          <a href="viewTemp">d</a>
+          <a href="<?php echo base_url();?>index.php/main/viewTemp">d</a>
         </li>
       
     
       
         <li>
-          <a href="viewTemp">e</a>
+          <a href="<?php echo base_url();?>index.php/main/viewTemp">e</a>
         </li>
       
     
       
         <li>
-          <a href="viewTemp">f</a>
+          <a href="<?php echo base_url();?>index.php/main/viewTemp">f</a>
         </li>
       
     
       
         <li>
-          <a href="viewTemp">g</a>
+          <a href="<?php echo base_url();?>index.php/main/viewTemp">g</a>
         </li>
       
     
       
         <li>
-          <a href="viewTemp">h</a>
+          <a href="<?php echo base_url();?>index.php/main/viewTemp">h</a>
         </li>
       
     
       
         <li>
-          <a href="viewTemp">i</a>
+          <a href="<?php echo base_url();?>index.php/main/viewTemp">i</a>
         </li>
       
     
       
         <li>
-          <a href="viewTemp">j</a>
+          <a href="<?php echo base_url();?>index.php/main/viewTemp">j</a>
         </li>
       
     
       
         <li>
-          <a href="viewTemp">k</a>
+          <a href="<?php echo base_url();?>index.php/main/viewTemp">k</a>
         </li>
       
     
       
         <li>
-          <a href="viewTemp">l</a>
+          <a href="<?php echo base_url();?>index.php/main/viewTemp">l</a>
         </li>
       
     
       
         <li>
-          <a href="viewTemp">m</a>
+          <a href="<?php echo base_url();?>index.php/main/viewTemp">m</a>
         </li>
       
     
       
         <li>
-          <a href="viewTemp">n</a>
+          <a href="<?php echo base_url();?>index.php/main/viewTemp">n</a>
         </li>
       
     
       
         <li>
-          <a href="viewTemp">o</a>
+          <a href="<?php echo base_url();?>index.php/main/viewTemp">o</a>
         </li>
       
     
       
         <li>
-          <a href="viewTemp">p</a>
+          <a href="<?php echo base_url();?>index.php/main/viewTemp">p</a>
         </li>
       
     
       
         <li>
-          <a href="viewTemp">q</a>
+          <a href="<?php echo base_url();?>index.php/main/viewTemp">q</a>
         </li>
       
     
       
         <li>
-          <a href="viewTemp">r</a>
+          <a href="<?php echo base_url();?>index.php/main/viewTemp">r</a>
         </li>
       
     
       
         <li>
-          <a href="viewTemp">s</a>
+          <a href="<?php echo base_url();?>index.php/main/viewTemp">s</a>
         </li>
       
     
       
         <li>
-          <a href="viewTemp">t</a>
+          <a href="<?php echo base_url();?>index.php/main/viewTemp">t</a>
         </li>
       
     
       
         <li>
-          <a href="viewTemp">u</a>
+          <a href="<?php echo base_url();?>index.php/main/viewTemp">u</a>
         </li>
       
     
       
         <li>
-          <a href="viewTemp">v</a>
+          <a href="<?php echo base_url();?>index.php/main/viewTemp">v</a>
         </li>
       
     
       
         <li>
-          <a href="viewTemp">w</a>
+          <a href="<?php echo base_url();?>index.php/main/viewTemp">w</a>
         </li>
       
     
       
         <li>
-          <a href="viewTemp">x</a>
+          <a href="<?php echo base_url();?>index.php/main/viewTemp">x</a>
         </li>
       
     
       
         <li>
-          <a href="viewTemp">y</a>
+          <a href="<?php echo base_url();?>index.php/main/viewTemp">y</a>
         </li>
       
     
       
         <li>
-          <a href="viewTemp">z</a>
+          <a href="<?php echo base_url();?>index.php/main/viewTemp">z</a>
         </li>
       
        <li>
-         <a href="viewTemp" id="parent">more</a>
+         <a href="<?php echo base_url();?>index.php/main/viewTemp" id="parent">more</a>
          
         
         </li>
     
       <li class="country-search">
-        Browse members <a href="country">by country</a>
+        Browse members <a href="<?php echo base_url();?>index.php/main/country">by country</a>
       </li>
 
      
@@ -324,8 +324,8 @@
    </div>
  
  <p id="agreement">
-          <strong>*</strong> By joining LinkedIn, you agree to LinkedIn's <a href="userAgreement">User Agreement</a>, 
-          <a href="viewPolicy">Privacy Policy</a> and <a href="viewTemp">Cookie Policy</a>.
+          <strong>*</strong> By joining LinkedIn, you agree to LinkedIn's <a href="<?php echo base_url();?>index.php/main/userAgreement">User Agreement</a>, 
+          <a href="<?php echo base_url();?>index.php/main/viewPolicy">Privacy Policy</a> and <a href="<?php echo base_url();?>index.php/main/viewTemp">Cookie Policy</a>.
     </p>
   </div>
 

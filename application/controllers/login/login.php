@@ -1,7 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-/* Author: Jorge Torres
- * Description: Login controller class
- */
+
+
 class Login extends CI_Controller{
 	
 	function __construct(){
@@ -9,22 +8,21 @@ class Login extends CI_Controller{
 		$this->load->helper('url');
 	}
 	
-	public function index($msg = NULL){
+	public function index($msg = NULL)
+	{
 		// Load our view to be displayed
 		// to the user
-		$this->load->helper('url');
 
-		if($this->session->userdata('username')){
-			redirect('common/settings', 'refresh');
+		if($this->session->userdata('validated')){
+			redirect('temp', 'refresh');
 		}else{
 			$data['msg'] = $msg;
-			$data['heading'] = "Login";
-			$this->load->view('common/header',$data);
-			$this->load->view('loginView/login_view', $data);
+			$this->load->view('header');
+			$this->load->view('login',$data);
+		
 		}
-		//$this->load->view('common/footer',$data);
+
 	}
-	
 	public function process(){
 		// Load the model
 		$this->load->model('login_model');
@@ -38,12 +36,12 @@ class Login extends CI_Controller{
 		}else{
 			// If user did validate, 
 			// Send them to members area
-			redirect('common/settings','refresh');
+			redirect('temp','refresh');
 		}		
 	}
 	public function do_logout(){
 		$this->session->sess_destroy();
-		redirect('login/login','refresh');
+		redirect('main/login','refresh');
 	}
 }
 ?>

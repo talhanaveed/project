@@ -2,7 +2,7 @@
 	<head>
 		<title>Password Change | LinkedIn</title>
 
-		<link rel="stylesheet" type="text/css" href="/Project/styles/fgt_pass.css">
+		<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/css/styles/fgt_pass.css">
 	</head>
 
 	<body>
@@ -43,11 +43,11 @@
 				</p>
 
 				<ul class = "legal">
-					<li><a href = "userAgreement">User Agreement</a></li>
-					<li><a href = "viewPolicy">Privacy Policy</a></li>
-					<li><a href = "viewTemp">Community Guidelines</a></li>
-					<li><a href = "viewTemp">Cookie Policy</a></li>
-					<li class = "last"><a href = "viewTemp">Copyright Policy</a></li>
+					<li><a href = "<?php echo base_url();?>index.php/main/userAgreement">User Agreement</a></li>
+					<li><a href = "<?php echo base_url();?>index.php/main/viewPolicy">Privacy Policy</a></li>
+					<li><a href = "<?php echo base_url();?>index.php/main/viewTemp">Community Guidelines</a></li>
+					<li><a href = "<?php echo base_url();?>index.php/main/viewTemp">Cookie Policy</a></li>
+					<li class = "last"><a href = "<?php echo base_url();?>index.php/main/viewTemp">Copyright Policy</a></li>
 				</ul>
 				
 			</div>

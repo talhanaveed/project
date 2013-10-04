@@ -9,11 +9,11 @@ class Login_model extends CI_Model{
 	
 	public function validate(){
 		// grab user input
-		$username = $this->security->xss_clean($this->input->post('username'));
-		$password = $this->security->xss_clean($this->input->post('password'));
+		$email = $this->security->xss_clean($this->input->post('email-field'));
+		$password = $this->security->xss_clean($this->input->post('pass-field'));
 		
 		// Prep the query
-		$this->db->where('username', $username);
+		$this->db->where('email', $email);
 		$this->db->where('password', $password);
 		
 		// Run the query
@@ -27,7 +27,7 @@ class Login_model extends CI_Model{
 					'userid' => $row->userid,
 					'fname' => $row->fname,
 					'lname' => $row->lname,
-					'username' => $row->username,
+					'email' => $row->email,
 					'validated' => true
 					);
 			$this->session->set_userdata($data);
