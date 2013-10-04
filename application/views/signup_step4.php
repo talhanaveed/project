@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Signup_Step3</title>
-		<link rel="stylesheet" type="text/css" href="/Project/styles/signup_step3.css">
-		<!-- <script type="text/javascript" src="/Project/assets/js/signup/step1.js" ></script> -->
+		<title>Signup_Step4</title>
+		<link rel="stylesheet" type="text/css" href="/Project/styles/signup_step4.css">
+		<script type="text/javascript" src="/Project/assets/js/signup_step4.js" ></script>
 	</head>
 
 	<body>
@@ -21,9 +21,17 @@
 			<div class = "wrapper">
 				<div class = "ex">
 					<div id = "main">
+
+						<div class = "alert-success" id = "alert">
+							<p>
+								<strong>One invitation has been sent.</strong>
+							</p>
+							<button class = "dismiss" onclick = "close();"></button>
+						</div>
+
 						<div class = "heading">
 							<h1>
-								Connect with people you know on LinkedIn
+								Why not invite some people?
 							</h1>
 
 							<!-- <div class = "progress"> -->
@@ -38,7 +46,7 @@
 							<!-- </div> -->
 						</div>
 
-						<h2 class = "h2">We found 1 person you know on LinkedIn. Select the people you'd like to connect to.</h2>
+						<h2 class = "h2">Stay in touch with your contacts who aren't on LinkedIn yet. Invite them to connect with you.</h2>
 
 						<form>
 							<div class = "header">
@@ -46,24 +54,25 @@
 									<input type = "checkbox" checked = "checked">
 									<label>Select All</label>
 								</p>
-								<p class = "num-selected"><span>1 </span>Selected</p>
+								<p class = "num-selected"><span>2 </span>Selected</p>
 							</div>
 
 							<div class = "contacts">
 								<div class = "temppp">
-									<div class = "row">
-										<div class = "person">
-											<input type = "checkbox" checked = "checked">
-											<img src = "/Project/images/person.png">
-											<div class = "details">
-												<label>
-													<span class = "fn">Talha</span>
-													<span class = "ln">Naveed</span>
-												</label>
-												<p class = "title">FAST-NU, IT Professional, Computer Scientist</p>
-											</div>
-										</div>
-									</div>
+									<ul class = "list">
+										<li class = "item">
+											<label>
+												<input type = "checkbox" checked = "checked">
+												<span class = "email">blueflame896@gmail.com</span>
+											</label>
+										</li>
+										<li class = "item">
+											<label>
+												<input type = "checkbox" checked = "checked">
+												<span class = "email">redflame556@gmail.com</span>
+											</label>
+										</li>
+									</ul>
 								</div>
 							</div>
 
