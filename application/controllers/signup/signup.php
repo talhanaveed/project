@@ -8,6 +8,10 @@ class signup extends CI_Controller{
 	function __construct(){
 		parent::__construct();
 		$this->load->helper('url');
+			if($this->session->userdata('validated'))
+		{
+			redirect('temp', 'refresh');
+		}
 	}
 
 	function index(){
@@ -70,7 +74,7 @@ class signup extends CI_Controller{
         	$this->load->view('signup/signup_step1', $data);
 		}
 		else
-			echo "!..What THE FUCK..!";
+			echo "!..EMAIL ALREADY EXISTS..!";
 	}
 
 	public function process()
@@ -83,9 +87,13 @@ class signup extends CI_Controller{
 		$this->session->sess_destroy();
 		$this->load->view('signup/signup_step2',$eid);
 	 }
-	 public function callstep2()
+	 public function callstep4()
 	 {
-	 	$this->load->view('signup/signup_step2');
+	 	$this->load->view('signup/signup_step4');
+	 }
+	  public function callstep5()
+	 {
+	 	$this->load->view('signup/signup_step5');
 	 }
 	 public function processAgain()
 	 {

@@ -15,13 +15,6 @@
 			</div>
 		</div>
 
-    <?php if (@$user_profile): ?>
-        <pre>
-            <?php echo print_r($user_profile, TRUE) ?>
-        </pre>
-            <?php endif; ?>
-
-
 		<!-- ************* - BODY - *************** -->
 
 		<div id = "body">

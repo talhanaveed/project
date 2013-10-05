@@ -38,38 +38,42 @@
 							<!-- </div> -->
 						</div>
 
-						<h2 class = "h2">We found 1 person you know on LinkedIn. Select the people you'd like to connect to.</h2>
+						<h2 class = "h2">We found <?php echo $count?> person you know on LinkedIn. Select the people you'd like to connect to.</h2>
 
 						<form>
 							<div class = "header">
 								<p class = "select-all">
-									<input type = "checkbox" checked = "checked">
+									<input type = "checkbox" checked = "checked" id="all" onclick="check();">
 									<label>Select All</label>
 								</p>
-								<p class = "num-selected"><span>1 </span>Selected</p>
+								<p class = "num-selected"><span id="num-selected"><?php echo $count?> </span>Selected</p>
 							</div>
 
 							<div class = "contacts">
 								<div class = "temppp">
 									<div class = "row">
+										<?php foreach ($names as $i => $value) 
+  								    {?>
 										<div class = "person">
-											<input type = "checkbox" checked = "checked">
+											<input type = "checkbox" checked = "checked" id="checkbox">
 											<img src = "/Project/assets/img/images/person.png">
 											<div class = "details">
 												<label>
-													<span class = "fn">Talha</span>
-													<span class = "ln">Naveed</span>
+													<span class = "fn"><?php echo $names[$i]?></span>
+													<!-- <span class = "ln">Naveed</span> -->
 												</label>
-												<p class = "title">FAST-NU, IT Professional, Computer Scientist</p>
+												<p class = "mail"><?php echo $emails[$i]?></p>
+												<p class = "title"><?php echo $company[$i]?></p>
 											</div>
 										</div>
+										<?php }?>
 									</div>
 								</div>
 							</div>
 
 							<div class = "li_but">
 								<input type = "submit" value = "Add Connection(s)">
-								<span>or<a href = "#">Skip this step</a><p>&raquo</p></span>
+								<span>or<a href = "<?php echo base_url();?>index.php/signup/signup/callStep4">Skip this step</a><p>&raquo</p></span>
 							</div>
 
 						</form>
@@ -94,6 +98,19 @@
 				</p>
  			</div>
 		</div>
+<script type="text/javascript">
 
+	function check()
+	{
+		var val=document.getElementById('all');
+		if(val.checked)
+		{
+			document.getElementById('checkbox').checked='checked';
+	
+		}
+	
+	}
+
+</script>
 	</body>
-</html>
+</html

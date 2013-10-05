@@ -10,7 +10,7 @@
 		<div id="header">
 			<div class="temp">
 				<div class="logo" id="logo-linkedin">
-				<img src="/Project/images/head_logo.png" >
+				<img src="/Project/assets/img/images/head_logo.png" >
 				</div>
 			</div>
 		</div>
@@ -22,7 +22,7 @@
 				<div class = "ex">
 					<div id = "main">
 
-						<div class = "alert-success" id = "alert">
+						<div class = "alert-success" id = "alert" style="display: none;">
 							<p>
 								<strong>One invitation has been sent.</strong>
 							</p>
@@ -78,7 +78,7 @@
 
 							<div class = "li_but">
 								<input type = "submit" value = "Add Connection(s)">
-								<span>or<a href = "#">Skip this step</a><p>&raquo</p></span>
+								<span>or<a href = "<?php echo base_url();?>index.php/signup/signup/callStep5">Skip this step</a><p>&raquo</p></span>
 							</div>
 
 						</form>

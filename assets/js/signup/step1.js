@@ -186,7 +186,7 @@ function validateForm()
 
                     }
          
-                        alert("i quit");
+                     
                           if(check==1)
                           {         
                             return false;

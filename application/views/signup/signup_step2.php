@@ -63,7 +63,7 @@
 						<div class = "skip">
 							
 							<p>&raquo</p>
-							<a href = "#">Skip this step</a>
+							<a href = "<?php echo base_url();?>index.php/signup/signup/callStep4">Skip this step</a>
 						</div>
 						
 					</div>

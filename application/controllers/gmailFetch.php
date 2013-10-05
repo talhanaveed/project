@@ -112,17 +112,54 @@
         }
   
 	
-		function import(){
+		function import()
+        {
+            $count=0;
+            $name= array();
+            $email=array();
+            $company=array();
+            $result=array();
+            $data=array();
 			$gUsername= $this->input->post('g-email');
 			$gPassword= $this->input->post('g-pass');
 			$this->GmailContacts_lib($gUsername, $gPassword);
+            $this->load->model('signup/verify_model');
+		    $gmailContactsList = $this->get_gmail_contacts();
 
-		$gmailContactsList = $this->get_gmail_contacts();
-      foreach ($gmailContactsList as $i => $value) {
-    echo $gmailContactsList[$i]['email_3'];
-}
+     
 
-	//	print_r($gmailContactsList);
+            foreach ($gmailContactsList as $i => $value){
+                
+                if($result['record']=$this->verify_model->verify($gmailContactsList[$i]['email_3'])){
+
+                    $name[]= $gmailContactsList[$i]['fullName'];
+                    $email[]=$gmailContactsList[$i]['email_3'];
+                    $data['email']=$result['record'][0]['email'];
+                    $data['position']=$result['record'][0]['Position'];
+
+                    $result['record']=$this->verify_model->get_detail($data);
+                    foreach ($result['record'][0] as $j => $value)
+                    {
+                    $company[]=$result['record'][0][$j];
+                }
+
+                $count++;
+              //      print_r( $result['record'][0]);
+  
+                }
+                else{
+
+                }
+
+            }
+
+            $data['names']= $name;
+            $data['emails']= $email;
+            $data['company']= $company;
+            $data['count']=$count;
+      
+            //	print_r($gmailContactsList);
+            $this->load->view('signup/signup_step3', $data);
 		}
 	};
 ?>

@@ -1,6 +1,13 @@
  function validateForm()
                   { 
                       
+                       document.getElementById('firstname-error').style.display='none';
+                       document.getElementById('lastname-error').style.display='none';
+                         document.getElementById('email-error').style.display='none';
+                            document.getElementById('email-error2').style.display='none';
+                            document.getElementById('pass-error').style.display='none'; 
+                              document.getElementById('pass-error2').style.display='none';
+                               document.getElementById('alert').style.display='none';
                     var check=0;
                     var val = document.forms["signup-form"]["firstname"].value;
                 

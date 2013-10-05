@@ -42,7 +42,7 @@
               
             <div id="signup_box_form">
   
-              <form method="POST" action="<?php echo base_url();?>index.php/signup/signup/process" id="signup-form" name="signup-form" onsubmit="return validateForm();" >
+              <form method="POST" action="<?php echo base_url();?>index.php/signup/signup/save_info" id="signup-form" name="signup-form" onsubmit="return validateForm();" >
                 <input type="hidden" name="isJsEnabled" value="true">    
                 <ul>
                 <li id="first-name">

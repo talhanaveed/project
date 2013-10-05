@@ -3,6 +3,10 @@
 		function main(){
 			parent :: __construct();
 			$this->load->helper('url');
+			if($this->session->userdata('validated'))
+		{
+			redirect('temp', 'refresh');
+		}
 		}
 
 		function viewMain(){
