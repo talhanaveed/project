@@ -11,6 +11,7 @@
 	margin-right: auto;
 	border-top: 1px solid #ccc;
 	font-size: 12px;
+        clear:both;
 }
 
 /*#foot:after{

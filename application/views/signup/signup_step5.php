@@ -67,7 +67,7 @@
 							<button class = "btn-ico"><span>Share on Facebook</span></button>
 							<button class = "btn-icon"><span>Share on Twitter</span></button>
 							<!-- <p>&raquo</p> -->
-							<a href = "<?php echo base_url();?>index.php/login/login/do_logout">Skip this step &raquo</a>
+							<a href = "<?php echo base_url();?>index.php/upload">Skip this step &raquo</a>
 						</div>
 						
 						

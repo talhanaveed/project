@@ -37,9 +37,17 @@
                     else if(val3.length<3 && val3.length>0)
                     {
 
-                 
+                      // var emailReg= /^([\w-\.]+@[\w-]+\.)+[\w-]{2,4})?$/;
+                      // if(!emailReg.test(val3))
+                      // {
+                      //    document.getElementById('email-error').style.display='block';
+                      //     check=1;
+                      // }
+                      // else
+                      // {
                       document.getElementById('email-error2').style.display='inline';
                       check=1;
+                    // }
 
                     }
                      if(val4=="")

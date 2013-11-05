@@ -18,17 +18,42 @@ class Login_model extends CI_Model{
 		
 		// Run the query
 		$query = $this->db->get('users');
+               
+                
 		// Let's check if there are any results
+                
 		if($query->num_rows == 1)
 		{
 			// If there is a user, then create session data
 			$row = $query->row();
+                        if($row->Position=='Employed'||$row->Position='seeker')
+                        {
+                            $this->db->select('jtitle, ci');
+                            
+//                            $this->db->join('employed', 'users.email = employed.email');
+                            if($row->Position=='Employed')
+                            {
+                                $this->db->from('employed');
+                           
+                            }
+                            else 
+                            {
+                                $this->db->from('seeker');
+                                
+                            }
+                             $this->db->where('email', $row->email);
+                            $query2=$this->db->get();
+
+                        }
+                        $row2=$query2->row();
 			$data = array(
-					'userid' => $row->userid,
+					'id' => $row->userid,
 					'fname' => $row->fname,
 					'lname' => $row->lname,
 					'email' => $row->email,
-					'validated' => true
+					'validated' => true,
+                                        'fposition' =>$row2->jtitle,
+                                        'fplace' =>$row2->ci
 					);
 			$this->session->set_userdata($data);
 			return true;

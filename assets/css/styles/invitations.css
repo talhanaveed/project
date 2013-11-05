@@ -1,0 +1,498 @@
+#body {
+margin-top: 15px;
+margin-bottom: 10px;
+margin-left: auto;
+margin-right: auto;
+width: 980px;
+clear:both;
+}
+#body .wrapper2 {
+padding: 0 10px;
+}
+.wrapper2{
+    float:left;
+}
+.grid-c{
+    float:left;
+}
+.grid-c #sidebar {
+    float:left;
+width: 20.8%;
+margin-right: 20px;
+}
+#inbox-nav{
+    float:left;
+}
+.sidebar {
+margin-right: 10px !important;
+width: 165px !important;
+}
+#inbox-nav {
+margin-top: 0px;
+margin-bottom: 10px;
+}
+#inbox-nav ul {
+list-style: none;
+}
+#inbox-nav .nav-search {
+border-width: 1px 1px 0;
+}
+#inbox-nav .nav-search {
+background: #f8f8f8;
+-webkit-border-radius: 6px 6px 0 0;
+-moz-border-radius: 6px 6px 0 0;
+-ms-border-radius: 6px 6px 0 0;
+-o-border-radius: 6px 6px 0 0;
+border-radius: 6px 6px 0 0;
+border-width: 1px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+#inbox-nav li {
+border: 1px solid #ddd;
+border-width: 0 1px;
+}
+
+#inbox-nav form {
+width: 141px;
+margin: 0 auto;
+}
+#inbox-nav .text {
+width: 108px;
+}
+input[type="text"] {
+padding: 1px 0px;
+}
+input, input[type="password"], input[type="search"], isindex {
+-webkit-appearance: textfield;
+padding: 1px;
+background-color: white;
+border: 2px inset;
+border-image-source: initial;
+border-image-slice: initial;
+border-image-width: initial;
+border-image-outset: initial;
+border-image-repeat: initial;
+-webkit-rtl-ordering: logical;
+-webkit-user-select: text;
+cursor: auto;
+}
+#inbox-nav .search-go {
+border: 0;
+cursor: pointer;
+color: #fff;
+background: #8a8a8a url('/Project/assets/img/images/sprite_inbox_v3_icon.png') no-repeat 0 -133px;
+height: 22px;
+width: 20px;
+margin-left: 2px;
+text-indent: -119988px;
+overflow: hidden;
+text-align: left;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+-ms-border-radius: 3px;
+-o-border-radius: 3px;
+border-radius: 3px;
+}
+#inbox-nav .nav-compose.notTop {
+-webkit-border-radius: 0;
+-moz-border-radius: 0;
+-ms-border-radius: 0;
+-o-border-radius: 0;
+border-radius: 0;
+}
+.ads-v2 #inbox-nav .nav-compose {
+-webkit-border-radius: 6px 6px 0 0;
+-moz-border-radius: 6px 6px 0 0;
+-ms-border-radius: 6px 6px 0 0;
+-o-border-radius: 6px 6px 0 0;
+border-radius: 6px 6px 0 0;
+border-width: 1px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+#inbox-nav .nav-compose {
+padding: 7px 0;
+background: #f8f8f8;
+border-bottom: 1px solid #ddd;
+}
+
+#inbox-nav .nav-compose a {
+background: #eaeaea url('/Project/assets/img/images/sprite_inbox_v2_bg.png') repeat-x 0 -45px;
+border: 1px solid #b5b5b5;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+-ms-border-radius: 3px;
+-o-border-radius: 3px;
+border-radius: 3px;
+width: 121px;
+margin-left:10px;
+margin-right:10px;
+padding-top:5px;
+padding-bottom:5px;
+padding-left:15px;
+}
+#inbox-nav li a, #inbox-nav li em {
+display: block;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 25px;
+padding-right: 10px;
+font-size:13px;
+text-decoration: none;
+}
+
+#inbox-nav li a, #inbox-nav li p{
+    margin:0;
+    text-align: left;
+    width:120px;
+    margin-left: auto;
+    margin-right:auto;
+}
+a {
+text-decoration: none;
+color: #069;
+}
+#inbox-nav .active {
+background: #cae5ff;
+}
+#inbox-nav .nav-trash {
+-webkit-border-radius: 0 0 6px 6px;
+-moz-border-radius: 0 0 6px 6px;
+-ms-border-radius: 0 0 6px 6px;
+-o-border-radius: 0 0 6px 6px;
+border-radius: 0 0 6px 6px;
+border-width: 0 1px 1px;
+}
+.grid-c #content {
+float: left;
+width: 58.4%;
+}
+.inbox {
+width: 475px !important;
+}
+.inbox-tabview {
+position: relative;
+}
+.tabs {
+border-bottom: 1px solid #b6b6b6;
+float: left;
+padding: 0 4px;
+width: 100%;
+}
+.tabs ul{
+
+list-style: none;
+
+}
+tabs li {
+margin-left: 7px;
+}
+.tabs li {
+background: #fcfcfc url('/Project/assets/img/images/sprite_global_v8.png') repeat-x 0 -301px;
+border: 1px solid #ccc;
+-moz-border-radius-topright: 3px;
+-moz-border-radius-topleft: 3px;
+-webkit-border-top-right-radius: 3px;
+-webkit-border-top-left-radius: 3px;
+border-top-right-radius: 3px;
+border-top-left-radius: 3px;
+border-width: 1px 1px 0;
+float: left;
+font-size: 13px;
+margin-left: 3px;
+}
+.inbox .inbox-tabview-nav li * {
+display: inline-block;
+vertical-align: top;
+}
+.tabs .selected {
+background: #fff url('/Project/assets/img/images/sprite_global_v8.png') repeat-x 0 -394px;
+border-color: #b6b6b6;
+margin-bottom: -1px;
+padding-bottom: 1px;
+_position: relative;
+}
+.tabs .selected a {
+color: #333;
+}
+.tabs li a {
+display: inline-block;
+padding: 5px 20px 3px;
+}
+em{
+    font-style: normal;
+}
+.inbox .new-bulk {
+clear: both;
+overflow: hidden;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+.inbox .new-link, .inbox .empty-trash-btn {
+float: left;
+margin-left: 0px;
+margin-right: 15px;
+}
+a.btn-quaternary, a.btn-action {
+display: inline-block !important;
+}
+.btn-quaternary, .btn-menu-open.btn-quaternary, .btn-split.btn-quaternary:hover {
+background: #ECECEC;
+background: -moz-linear-gradient(top, #fff 0, #ececec 100%);
+background: -o-linear-gradient(top, #fff 0, #ececec 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(100%, #ececec));
+background: linear-gradient(top, #ffffff 0%,#ececec 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#ECECEC',GradientType=0 );
+border-color: #ccc;
+color: #585858 !important;
+}
+ .btn-quaternary, .btn-action {
+border-width: 1px;
+border-style: solid;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+cursor: pointer;
+font-size: 12px;
+line-height: 1.35;
+margin: 0;
+overflow: visible;
+padding: 3px 10px 2px;
+text-decoration: none !important;
+vertical-align: top;
+width: auto;
+}
+.inbox .bulk li {
+float: left;
+margin-right: 3px;
+}
+.btn-quaternary[disabled], .btn-quaternary.disabled {
+background: #F5F5F5;
+background: -moz-linear-gradient(top, #fff 0, #f5f5f5 100%);
+background: -o-linear-gradient(top, #fff 0, #f5f5f5 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(100%, #f5f5f5));
+background: linear-gradient(top, #ffffff 0%,#f5f5f5 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#F5F5F5',GradientType=0 );
+color: #BDBDBD !important;
+}
+input[disabled], .disabled {
+cursor: default;
+}
+.inbox .select-filters-sort {
+background: #f8f8f8;
+border: 1px solid #dedede;
+border-width: 1px 0;
+clear: both;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 10px;
+padding-right: 10px;
+}
+.inbox .hide-blocked {
+display: none;
+}
+.js .inbox .select {
+display: block;
+}
+.inbox .select {
+
+font-size: 12px;
+overflow: hidden;
+}
+.inbox .select h4 {
+font-weight: normal;
+display:inline;
+}
+.inbox .select li {
+border-left: 1px solid #ccc;
+display: inline;
+margin-left: 5px;
+margin-right: 5px;
+padding-left: 10px;
+padding-right: 0px;
+}
+ul{
+list-style: none;
+}
+.inbox .select .disabled {
+color: #ccc;
+cursor: default;
+text-decoration: none;
+}
+.inbox-list {
+clear: both;
+padding:0;
+margin-top: 5px;
+}
+/*.inbox .inbox-item:first-child {
+border-top: 0;
+}
+.inbox .inbox-item:first-child {
+background: #fff;
+}*/
+.inbox .inbox-item {
+
+margin: 0;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.inbox .inbox-item .chk {
+float: left;
+height: 13px;
+margin: 0 8px 0 0;
+padding: 0;
+width: 13px;
+}
+input[type="checkbox"] {
+-webkit-appearance: checkbox;
+box-sizing: border-box;
+}
+.inbox .inbox-item .item-content {
+margin-left: 0px;
+margin-right: 0px;
+font-size:12px;
+display:inline;
+
+}
+img.photo, span.photo {
+display: block;
+padding: 2px;
+border: 1px solid #e6e6e6;
+margin-right: 5px;
+}
+.inbox .inbox-item .date {
+float: right;
+text-align: right;
+width: 45px;
+font-size:12px;
+
+}
+#invitations .inbox-list .participants {
+font-weight: bold;
+margin-right: 5px;
+}
+strong {
+font-weight: bold;
+}
+.inbox .inbox-item .photo {
+float: left;
+}
+#invitations .headline {
+color: #666;
+display: inline;
+margin-left:5px;
+}
+#invitations .msg {
+font-size: 12.5px;
+margin-top: 3px;
+overflow: hidden;
+}
+#invitations .inbox-item .note {
+color: #808080;
+
+}
+#invitations .inbox-item .primary-actions {
+display: -moz-inline-stack;
+display: inline-block;
+vertical-align: middle;
+zoom: 1;
+}
+.btn-menu {
+cursor: pointer;
+display: inline-block !important;
+padding: 0 !important;
+_height: 22px;
+_overflow: hidden;
+}
+.btn-ternary{
+background: #CDE5F0;
+background: -moz-linear-gradient(top, #eef7fa 0, #eef7fa 1px, #dcedf5 1px, #cde5f0 100%);
+background: -o-linear-gradient(top, #eef7fa 0, #eef7fa 1px, #dcedf5 1px, #cde5f0 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #eef7fa), color-stop(5%, #eef7fa), color-stop(5%, #dcedf5), color-stop(100%, #cde5f0));
+background: linear-gradient(top, #eef7fa 0%,#eef7fa 1px,#dcedf5 1px,#cde5f0 100%);
+border-color: #a3cfe4;
+color: #069 !important;
+
+border-width: 1px;
+border-style: solid;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+cursor: pointer;
+font-size: 12px;
+line-height: 1.35;
+margin: 0;
+
+padding: 3px 10px 2px;
+text-decoration: none !important;
+vertical-align: top;
+width: auto;
+}
+
+.btn-split .btn {
+margin: -1px 0 -1px -1px !important;
+padding-right: 10px;
+}
+.btn-menu .btn {
+-moz-border-radius-topright: 0;
+-webkit-border-top-right-radius: 0;
+border-top-right-radius: 0;
+-moz-border-radius-bottomright: 0;
+-webkit-border-bottom-right-radius: 0;
+border-bottom-right-radius: 0;
+color: #000;
+display: inline-block !important;
+font-size: 12px;
+line-height: 1.35;
+
+}
+.btn-ternary .toggle-btn {
+background-position: 4px -1768px;
+}
+.toggle-btn {
+background: url('/Project/assets/img/images/sprite_global_v8.png') no-repeat 4px -1925px;
+display: inline-block !important;
+margin-top: 10px;
+width: 15px;
+height: 3px;
+}
+.inbox-actions{
+margin-left: 72px;
+}
+#invitations .inbox-item .inbox-actions li {
+display: -moz-inline-stack;
+display: inline-block;
+vertical-align: middle;
+zoom: 1;
+margin-left: 0px;
+margin-right: 5px;
+vertical-align: bottom;
+}
+.inbox .inbox-item {
+background: none;
+border-top: 1px solid #ddd;
+}
+.inbox .inbox-item:first-child {
+border-top: 0;
+}
+/*************************************************/
+
+
+.ads {
+width: 300px !important;
+}
+#col3{
+	float: right;
+	width: 200px;
+}
+
+
+
+.add1{
+	padding-left: 5px;
+	margin-top: 20px;
+}
+

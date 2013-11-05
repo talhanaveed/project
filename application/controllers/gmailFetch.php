@@ -2,6 +2,10 @@
 	class gmailFetch extends CI_Controller{
 		function test(){
 			parent :: __construct();
+                if($this->session->userdata('validated'))
+        {
+            redirect('temp', 'refresh');
+        }
 		}
 
         var $FEED_URL = "http://www.google.com/m8/feeds/contacts/default/full";

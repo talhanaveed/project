@@ -1,7 +1,5 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-/* Author: Jorge Torres
- * Description: Login controller class
- */
+
 
 class signup extends CI_Controller{
 
@@ -84,7 +82,7 @@ class signup extends CI_Controller{
 		$eid['email']=$this->session->userdata('email');
 		$this->load->model('signup/signup_model');
 		$this->signup_model->insert();
-		$this->session->sess_destroy();
+//		$this->session->sess_destroy();
 		$this->load->view('signup/signup_step2',$eid);
 	 }
 	 public function callstep4()
@@ -95,6 +93,7 @@ class signup extends CI_Controller{
 	 {
 	 	$this->load->view('signup/signup_step5');
 	 }
+       
 	 public function processAgain()
 	 {
 	 	$data=array(

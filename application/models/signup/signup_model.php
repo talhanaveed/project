@@ -19,7 +19,15 @@ class signup_model extends CI_Model{
     else
       return 1;
   }
-	
+	function add_image($path)
+        {
+            $data=  array(
+                'imgpath'=>$path
+            );
+            $id=$this->session->userdata('email');
+            $this->db->where('email', $id);
+            $this->db->update('users', $data);
+        }
 	function insert()
 	{
 

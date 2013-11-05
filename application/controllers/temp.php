@@ -25,6 +25,7 @@ class temp extends CI_Controller{
 	}
 	function viewTemp()
 	{
+             
 			$this->load->view('header');
 			$this->load->view('under_construction');
 			$this->load->view('footer');
