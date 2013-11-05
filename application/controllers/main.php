@@ -58,15 +58,30 @@
 		{
 			$this->load->view('signup');
 		}
+		
 		function signup_step4()
 		{
 			$this->load->view('signup/signup_step4');
 		}
+		
 		function signup_step3()
 		{
 			$this->load->view('signup/signup_step3');
 		}
 
+		function find_alumni()
+		{
+			$this->load->view('header');
+			$this->load->view('find_alumini');
+			
+		}
+
+		function advanced_search()
+		{
+			$this->load->view('header');
+			$this->load->view('advanced_search');
+			
+		}
 	
 	};
 ?>
