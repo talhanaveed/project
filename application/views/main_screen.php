@@ -2,7 +2,7 @@
 <html>
 
 <head>
-<link href="<?php echo base_url();?>/assets/css/styles/MyStyle.css" rel="stylesheet" type="text/css" />
+<link href="<?php echo base_url();?>/assets/css/styles/myStyle.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="<?php echo base_url();?>/assets/js/common/main_screen.js" ></script>
 </head>
 
