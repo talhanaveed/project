@@ -23,26 +23,26 @@ class Feed_model extends CI_Model{
             }
         }
    
-        $this->db->select('feed.email as email, id, feed.msg as msg, users.fname, users.lname, Position, Country, img_path,imgpath,link, COUNT(feedid) as num, like, imgpath');
+        $this->db->select('feed.email as email, id, feed.msg as msg, fname, lname, Position, Country, img_path,imgpath,link, COUNT(feedid) as num, like, imgpath');
         $this->db->from('feed');
         $this->db->join('users', 'feed.email = users.email', 'left');
         $this->db->join('comments', 'feed.id = comments.feedid', 'left');
         $this->db->where('status','public');
         $this->db->or_where('feed.email',$this->session->userdata('email'));
         $this->db->or_where_in('feed.email',$item);
-        $this->db->group_by('id,feed.email as email, id, feed.msg as msg, users.fname, users.lname');
+        $this->db->group_by('id, email, id, msg, fname, lname');
         $this->db->order_by('id', 'desc');
         $query = $this->db->get();
         }
         else
         {
-            $this->db->select('feed.email as email, id, feed.msg as msg, users.fname, users.lname, Position, Country,img_path, imgpath,link, COUNT(feedid) as num, like, imgpath');
+            $this->db->select('feed.email as email, id, feed.msg as msg, fname, lname, Position, Country,img_path, imgpath,link, COUNT(feedid) as num, like, imgpath');
         $this->db->from('feed');
         $this->db->join('users', 'feed.email = users.email', 'left');
         $this->db->join('comments', 'feed.id = comments.feedid', 'left');
         $this->db->where('status','public');
         $this->db->or_where('feed.email',$this->session->userdata('email'));
-          $this->db->group_by('id,feed.email as email, id, feed.msg as msg, users.fname, users.lname');
+          $this->db->group_by('id, email, id, msg, fname, lname');
         $this->db->order_by('id', 'desc');
         $query = $this->db->get();
         }
