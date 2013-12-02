@@ -1,5 +1,5 @@
 body{
-	 background-image: url('/Project/assets/img/images/background.png');
+	 background-image: url('../../img/images/background.png');
 	 background-repeat: repeat;
 	 font-family: Arial, sans-serif;
 }
@@ -33,7 +33,7 @@ div{
 }
 
 .row{
-	background-image: url('/Project/assets/img/images/agree.png');
+	background-image: url('../../img/images/agree.png');
 	padding-top: 30px;
 	padding-bottom: 40px;
 	padding-left: 41px;

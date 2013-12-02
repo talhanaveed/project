@@ -1,5 +1,5 @@
 body{
-	 background-image: url('/Project/assets/img/images/background.png');
+	 background-image: url('../../img/images/background.png');
 	 background-repeat: repeat;
 	 font-family: Arial, sans-serif;
 }
@@ -16,7 +16,17 @@ div{
 	margin-left: auto;
 	margin-right: auto;
 }*/
-
+#msg{
+    border-radius: 10px;
+    background-color: #fcf8e3;
+	border: 1px solid #fbeed5;
+	margin-bottom: 20px;
+}
+#msg p{
+	font-weight: bold;
+	color: #c09853;
+    text-align: center;
+}
 #top-header, #body, #footer{
 	width: 805px;
 	clear: both;
@@ -64,7 +74,7 @@ div{
 }
 
 .intro{
-	background: transparent url('/Project/assets/img/images/int_logo.png') no-repeat bottom left;
+	background: transparent url('../../img/images/int_logo.png') no-repeat bottom left;
 	margin-left: 108px;
 	margin-top: 0;
 	padding-bottom: 2px;
@@ -132,10 +142,14 @@ form label{
 .field input{
 	width: 267px;
 	border: 1px solid #999;
-	outline: none;
 	padding: 2px 3px;
 	background-color: #fff;
 	display: block;
+	outline-color: none;
+}
+
+.focus:focus{
+	outline-color: #00688B;
 }
 
 /*input.focus{
@@ -229,7 +243,7 @@ font-weight: normal;
 font-style: italic;
 }
 .fb_button {
-background: #29447e url('/Project/assets/img/images/fb_button.png') 0 -44px no-repeat;
+background: #29447e url('../../img/images/fb_button.png') 0 -44px no-repeat;
 display: inline-block;
 padding: 0 0 0 1px;
 outline: none;
@@ -240,7 +254,7 @@ text-decoration: none;
 color: #069;
 }
 .fb_button .fb_button_text {
-background: #5f78ab url('/Project/assets/img/images/fb_button.png');
+background: #5f78ab url('../../img/images/fb_button.png');
 border-top: 1px solid #879ac0;
 border-bottom: 1px solid #1a356e;
 color: #fff;
@@ -302,7 +316,7 @@ span.error{
 }
 #alert {
 	margin-top: 10px;
-background: #fee url('/Project/assets/img/images/global.png') no-repeat 7px -643px;
+background: #fee url('../../img/images/global.png') no-repeat 7px -643px;
 padding-bottom: 4px;
 display: none;
 }

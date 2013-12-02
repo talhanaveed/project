@@ -1,6 +1,6 @@
 body{
 
-background: url('/Project/assets/img/images/background.png');
+background: url('../../img/images/background.png');
 }
 
 div{
@@ -44,7 +44,7 @@ margin-left: auto;
 margin-right: auto;
 width: 100%;
 float: left;
-	background: transparent url('/Project/assets/img/images/policy_header.png') 0 0 no-repeat;
+	background: transparent url('../../img/images/policy_header.png') 0 0 no-repeat;
 
 	outline: 0;
 
@@ -118,23 +118,23 @@ text-align: center;
 }
 #mid-header .menu a.intro{
 
-	background: transparent url('/Project/assets/img/images/policy/intro_icon.png') 35px 0 no-repeat;
+	background: transparent url('../../img/images/policy/intro_icon.png') 35px 0 no-repeat;
 }
 #mid-header .menu a.info-collected{
 
-	background: transparent url('/Project/assets/img/images/policy/info_icon.png') 53px 0 no-repeat;
+	background: transparent url('../../img/images/policy/info_icon.png') 53px 0 no-repeat;
 }
 #mid-header .menu a.uses-sharing-per-info{
 
-	background: transparent url('/Project/assets/img/images/policy/usersharing_icon.png') 44px 0 no-repeat;
+	background: transparent url('../../img/images/policy/usersharing_icon.png') 44px 0 no-repeat;
 }
 #mid-header .menu a.choices-oblig{
 
-	background: transparent url('/Project/assets/img/images/policy/choices_icon.png') 54px 0 no-repeat;
+	background: transparent url('../../img/images/policy/choices_icon.png') 54px 0 no-repeat;
 }
 #mid-header .menu a.important-info{
 
-	background: transparent url('/Project/assets/img/images/policy/impinfo_icon.png') 51px 0 no-repeat;
+	background: transparent url('../../img/images/policy/impinfo_icon.png') 51px 0 no-repeat;
 }
 #mid-header .menu .first{
 margin-left: 0px;
@@ -149,7 +149,7 @@ position: relative;
 width: 933px;
 }
 h2#intro{
-	background: transparent url('/Project/assets/img/images/policy/intro_icon60x37.png') 0 0 no-repeat;
+	background: transparent url('../../img/images/policy/intro_icon60x37.png') 0 0 no-repeat;
 padding-left: 80px;
 min-height: 37px;
 height: auto;
@@ -222,7 +222,7 @@ border-top: 1px solid #BDBDBD;
 }
 
 h2#info-collected {
-background: transparent url('/Project/assets/img/images/policy/info_icon60x66.png') 0 0 no-repeat;
+background: transparent url('../../img/images/policy/info_icon60x66.png') 0 0 no-repeat;
 padding-left: 80px;
 min-height: 66px;
 height: auto;
@@ -279,7 +279,7 @@ position: relative;
 width: 564px;
 }
 h2#uses-sharing-per-info {
-background: transparent url('/Project/assets/img/images/policy/usersharing_icon86x66.png') 0 0 no-repeat;
+background: transparent url('../../img/images/policy/usersharing_icon86x66.png') 0 0 no-repeat;
 padding-left: 103px;
 min-height: 66px;
 height: auto;
@@ -288,7 +288,7 @@ line-height: 66px;
 }
 
 h2#choices-oblig {
-background: transparent url('/Project/assets/img/images/policy/choices_icon56x66.png') 0 0 no-repeat;
+background: transparent url('../../img/images/policy/choices_icon56x66.png') 0 0 no-repeat;
 padding-left: 76px;
 min-height: 66px;
 height: auto;
@@ -297,7 +297,7 @@ line-height: 66px;
 }
 
 h2#important-info {
-background: transparent url('/Project/assets/img/images/policy/impinfo_icon52x53.png') 0 0 no-repeat;
+background: transparent url('../../img/images/policy/impinfo_icon52x53.png') 0 0 no-repeat;
 padding-left: 72px;
 min-height: 53px;
 height: auto;
@@ -305,7 +305,7 @@ _height: 53px;
 line-height: 53px;
 }
 .brief .safety-center {
-background: transparent url('/Project/assets/img/images/policy/safety.png') 0 0 no-repeat;
+background: transparent url('../../img/images/policy/safety.png') 0 0 no-repeat;
 padding-top: 10px;
 padding-bottom: 10px;
 padding-left: 40px;

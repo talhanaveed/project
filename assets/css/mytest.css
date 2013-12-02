@@ -1,0 +1,74 @@
+body{
+	background: url('../../img/images/background.png');
+	font-family: Arial, sans-serif;
+}
+
+div{
+	display: block;
+}
+
+#input{
+	position: absolute;
+	margin-left: 30%;
+	width: 400px;
+
+}
+
+#input h2{
+	margin-left: 20px; 
+}
+
+#mine{
+	width: 300px;
+}
+
+#content{
+	position: relative;
+	clear: both;
+	top: 200px;
+	left: 550px;
+	width: 500px;
+	border: 5px solid #666;
+	padding: 10px;
+	display: none;
+	float: left;
+}
+
+.embed{
+	position: relative;
+	clear: both;
+	
+
+}
+.embed iframe{
+	max-width: 500px;
+	max-height:400px; 
+}
+
+.thumb{
+	position: relative;
+	float: left;
+	margin-right: 20px;
+	
+}
+
+.embed a{
+	float: right;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-decoration: none;
+	color: #069;
+	font-weight: bold;
+}
+
+.provider{
+	display: none;
+}
+
+.description{
+}
+
+
+.embed a:hover{
+	text-decoration: underline;
+}

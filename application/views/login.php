@@ -4,6 +4,7 @@
 	
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/css/styles/login.css">
 		<script type="text/javascript" src="<?php echo base_url();?>/assets/js/common/login.js" ></script>
+		<script src="<?php echo base_url()?>assets/js/jquery-2.0.3.js"></script>
 	</head>
 
 	<body>
@@ -83,4 +84,9 @@
 		</div>
 
 	</body>
+	<script>
+		// $('.innn').focus(function(){
+		// 	$(this).css('border', '1px solid #069');
+		// });
+	</script>
 </html>

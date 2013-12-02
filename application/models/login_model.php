@@ -26,7 +26,7 @@ class Login_model extends CI_Model{
 		{
 			// If there is a user, then create session data
 			$row = $query->row();
-                        if($row->Position=='Employed'||$row->Position='seeker')
+                        if($row->Position=='Employed'||$row->Position=='Seeker')
                         {
                             $this->db->select('jtitle, ci');
                             
@@ -45,15 +45,26 @@ class Login_model extends CI_Model{
                             $query2=$this->db->get();
 
                         }
+                        else
+                        {
+                             $this->db->select('jtitle, institute as ci');
+                             $this->db->from('stu');
+                             $this->db->where('email', $row->email);
+                             $query2=$this->db->get();
+                        }
                         $row2=$query2->row();
 			$data = array(
 					'id' => $row->userid,
 					'fname' => $row->fname,
 					'lname' => $row->lname,
 					'email' => $row->email,
+					'type' => $row->Position,
+                    'country' => $row->Country,
 					'validated' => true,
-                                        'fposition' =>$row2->jtitle,
-                                        'fplace' =>$row2->ci
+                     'fposition' =>$row2->jtitle,
+                    'fplace' =>$row2->ci,
+                      'imgpath' => $row->imgpath
+                                        
 					);
 			$this->session->set_userdata($data);
 			return true;

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Signup_Step2</title>
+		<title>LinkedIn | Signup Step 2</title>
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/css/styles/signup_step2.css">
 		<!-- <script type="text/javascript" src="/Project/assets/js/signup/step1.js" ></script> -->
 	</head>
@@ -10,7 +10,7 @@
 		<div id="header">
 			<div class="temp">
 				<div class="logo" id="logo-linkedin">
-				<img src="/Project/assets/img/images/head_logo.png" >
+				<img src="<?php echo base_url()?>/assets/img/images/head_logo.png" >
 				</div>
 			</div>
 		</div>
@@ -63,7 +63,7 @@
 						<div class = "skip">
 							
 							<p>&raquo</p>
-							<a href = "<?php echo base_url();?>index.php/signup/signup/callStep4">Skip this step</a>
+							<a href = "<?php echo base_url();?>index.php/signup/signup/callStep5">Skip this step</a>
 						</div>
 						
 					</div>

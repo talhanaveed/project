@@ -9,7 +9,7 @@ class Invitations_model extends CI_Model{
         {
             $email=$this->session->userdata('email');
 
-            $this->db->select('email,fname,lname, fposition, fplace, date, imgpath');
+            $this->db->select('email,fname,lname, fposition, fplace, date, imgpath, msg');
             $this->db->from('invitations');
             $this->db->join('users', 'users.email = invitations.from_id');
             $this->db->where('to_id', $email);
@@ -18,18 +18,32 @@ class Invitations_model extends CI_Model{
             return $query->result_array();
             
         }
+         public function get_not_count()
+        {
+            $email=$this->session->userdata('email');
+
+            $this->db->select('email,fname,lname, fposition, fplace, date, imgpath, msg');
+            $this->db->from('invitations');
+            $this->db->join('users', 'users.email = invitations.from_id');
+            $this->db->where('to_id', $email);
+            $query=$this->db->get();
+            
+            return $query->num_rows;
+        }
         public function send_invite()
         {
  
             $to_id=$this->input->post('email');
+            $msg=$this->input->post('greeting');
             $data = array(
                     'from_id' =>$this->session->userdata('email'),
                     'to_id' =>$to_id,
                     'fposition' => $this->session->userdata('fposition'),
                     'fplace' =>$this->session->userdata('fplace'),
-                    'date' => NOW()
+                   
+                    'msg' => $msg
             );
-            
+            $this->db->set('date', 'NOW()', FALSE);
             
             $this->db->insert('invitations',$data);
             
@@ -54,6 +68,12 @@ class Invitations_model extends CI_Model{
             $this->db->delete('invitations'); 
             }
                
+        }
+        public function ignore($email)
+        {
+            $this->db->where('from_id', $email);
+            $this->db->where('to_id',$this->session->userdata('email') );
+            $this->db->delete('invitations'); 
         }
 };
 ?>

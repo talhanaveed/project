@@ -83,7 +83,7 @@
 }
 
 #bot_logo span{
-	background-image: url('/Project/assets/img/images/footer_logo.png');
+	background-image: url('../../img/images/footer_logo.png');
 	float: left;
 	height: 16px;
 	width: 62px;
@@ -137,7 +137,7 @@ span.error{
 }
 #alert {
 	margin-top: 10px;
-background: #fee url('/Project/assets/img/images/global.png') no-repeat 7px -643px;
+background: #fee url('../../img/images/global.png') no-repeat 7px -643px;
 padding-bottom: 4px;
 display: none;
 margin-bottom: 5px;

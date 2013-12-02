@@ -1,5 +1,5 @@
 body{
-	background: url('/Project/assets/img/images/background.png');
+	background: url('../../img/images/background.png');
 	font-family: Arial, sans-serif;
 }
 
@@ -9,7 +9,7 @@ div{
 
 #body{
 	display: none;
-	margin-top: 80px;
+	margin-top: 15px;
 	margin-bottom: 10px;
 	margin-right: auto;
 	margin-left: auto;
@@ -25,7 +25,7 @@ div{
 	float: center;
 }
 
-.wrapper{
+#body .wrapper{
 	float: left;
 }
 
@@ -62,6 +62,7 @@ div{
 	margin-bottom: 0px;
 	height: 80px;
 	clear: both;
+	
 }
 
 .title{
@@ -105,7 +106,7 @@ div{
 }
 
 .linkedin{
-	background: url('/Project/assets/img/share.png') no-repeat;
+	background: url('../../img/share.png') no-repeat;
 	background-position: 0 0;
 	display: block;
 	width: 18px;
@@ -114,7 +115,7 @@ div{
 }
 
 .twitter{
-	background: url('/Project/assets/img/share.png') no-repeat;
+	background: url('../../img/share.png') no-repeat;
 	background-position: 0 -29px;
 	display: block;
 	width: 18px;
@@ -122,7 +123,7 @@ div{
 }
 
 .fb{
-	background: url('/Project/assets/img/share.png') no-repeat;
+	background: url('../../img/share.png') no-repeat;
 	background-position: 0 -60px;
 	display: block;
 	width: 18px;
@@ -130,7 +131,7 @@ div{
 }
 
 /*.linkedin{
-	background: url('/Project/assets/img/share.png') no-repeat;
+	background: url('../../img/share.png') no-repeat;
 	display: block;
 	width: 18px;
 	height: 18px;
@@ -174,7 +175,7 @@ div{
 }
 
 .drop-down-arrow{
-	background: url('/Project/assets/img/images/global.png') no-repeat scroll 2px -1605px transparent;
+	background: url('../../img/images/global.png') no-repeat scroll 2px -1605px transparent;
 	width: 10px;
 	height: 10px;
 	display: inline-block;
@@ -325,7 +326,7 @@ div{
 }
 
 .alumni-icon{
-	background-image: url('/Project/assets/img/sprite.png');
+	background-image: url('../../img/sprite.png');
 	background-repeat: no-repeat;
 	background-position: 5px -1230px;
 	display: block;
@@ -514,7 +515,7 @@ div{
 
 .search-facet {
 	float: left;
-	background: url('/Project/assets/img/sprite1.png') no-repeat scroll 2px -210px transparent;
+	background: url('../../img/sprite1.png') no-repeat scroll 2px -210px transparent;
 	text-indent: -9999px;
 	border: 0;
 	width: 20px;
@@ -581,7 +582,7 @@ div{
 }
 
 .search-box-wrapper .search-box-submit {
-	background: url('/Project/assets/img/sprite1.png') no-repeat scroll 2px -210px #fff;
+	background: url('../../img/sprite1.png') no-repeat scroll 2px -210px #fff;
 	text-indent: -9999px;
 	border: 0;
 	width: 20px;
@@ -593,7 +594,7 @@ div{
 
 .search-box-wrapper .search-box-reset {
 	display: none;
-	background: url('/Project/assets/img/global.png') no-repeat scroll 6px -1494px transparent;
+	background: url('../../img/global.png') no-repeat scroll 6px -1494px transparent;
 	text-indent: -9999px;
 	width: 20px;
 	height: 20px;
@@ -723,7 +724,7 @@ div{
 }
 
 .cmpt-ptc-people-results .person .connect-logo {
-	background: transparent url('/Project/assets/img/global.png') no-repeat scroll 11px -1024px;
+	background: transparent url('../../img/global.png') no-repeat scroll 11px -1024px;
 	width: 28px;
 	height: 25px;
 	display: block;
@@ -737,14 +738,14 @@ div{
 }
 
 .cmpt-ptc-people-results .person .ft .divider {
-	float: left;
 	width: 0;
 	border-left: 1px solid #ccc;
-	border-right: 1px solid #fff;
+	/*border-right: 1px solid #fff;*/
+	padding: 5px 0;
 }
 
 .right-action.shared-connections {
-	background: url('/Project/assets/img/sprite3.png') no-repeat -32px -30px;
+	background: url('../../img/sprite3.png') no-repeat -32px -30px;
 	padding-left: 30px;
 	color: #333;
 }
@@ -815,7 +816,7 @@ div{
 	display: inline-block;
 	width: 90px;
 	height: 71px;
-	background: url('/Project/assets/img/sprite.png') no-repeat scroll 11px -225px transparent;
+	background: url('../../img/sprite.png') no-repeat scroll 11px -225px transparent;
 	vertical-align: top;
 }
 
@@ -970,7 +971,7 @@ ul.legal li{
 }
 
 #bot_logo span{
-	background-image: url('/Project/assets/img/images/footer_logo.png');
+	background-image: url('../../img/images/footer_logo.png');
 	float: left;
 	height: 16px;
 	width: 62px;

@@ -11,18 +11,48 @@
 
 <body>
 
-	<div id="body" >
-		<h1>THIS PAGE IS UNDER CONSTRUCTION</h1>
+	<div id = "body">
+            
+            <div class = "body-wrapper">
+                
+                <div id = "main">
+                    <div id = "content">
+                        <div id = "top-card">
+                            <div class = "profile-card">
+                            	<h2>THIS PAGE IS UNDER CONSTRUCTION</h2>
+                                <div class = "profile-picture">
+                                    <a href = "#">
+                                        <img src = "/Project/assets/img/under.jpeg" />
+                                    </a>
+                                </div>
 
-		<input type="radio" name= "check1" id="check1"  value="emp" onclick="change()"> show</input>
+                                <div class = "goto">
+                                	<div id="container">
+										<a href="<?php echo base_url()?>index.php/main/viewMain" class="btn btn-large btn-primary">Go To Main</a>
+									</div>
+                                </div>
+                                <!-- <div class = "profile-overview">
+                                    <div class = "profile-overview-content">
+                                    	 -->
 
-		<input type="radio" name= "check1" id="check2"  value="stu" onclick="change()"> hide</input>
+										<!-- <input type="radio" name= "check1" id="check1"  value="emp" onclick="change()"> show</input>
 
-<div id="container" style= "display:none;">
-	<a href="<?php echo base_url();?>index.php/login/login/do_logout" class="btn btn-large btn-primary">Log Out</a>
-</div>
+										<input type="radio" name= "check1" id="check2"  value="stu" onclick="change()"> hide</input> -->
 
-</div>
+										
+
+<!--                                     </div>
+                                </div>
+ -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
 </body>
 
 </html>

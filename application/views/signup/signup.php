@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>Why linkedin..? | LinkedIn</title>
+		<title>LinkedIn | Signup</title>
 
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/css/styles/signup.css">
 		<script type="text/javascript" src="<?php echo base_url();?>/assets/js/common/main_screen.js" ></script>
@@ -11,6 +11,7 @@
 		<!-- ************ MID ************ -->
 		<div id="top-header">
 			<div class="wrapper">
+
 				<div class="logo" id="logo-linkedin">
 				 <img src="/Project/assets/img/images/head_logo.png" >
 				 </div>
@@ -22,7 +23,11 @@
 
 		<div id = "body">
 			<div class = "wrapper2">
-
+						<?php if($msg){?>
+                    <div id="msg">
+                        <p><?php echo $msg ?></p>
+                    </div>
+               <?php } ?>
 				<div id = "main">
 					        <div id="alert">
 							 <div class="alert2">

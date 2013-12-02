@@ -1,13 +1,18 @@
-<html>
+    <html>
     <head>
     
         <link href="<?php echo base_url();?>/assets/css/styles/invitations.css" rel="stylesheet" type="text/css" />
-<!--          <link href="<?php echo base_url();?>/assets/css/styles/invitations.css" rel="stylesheet" type="text/css" />-->
+
     </head>
     
     <body>
         <div id="body" class="" role="main">
             <div class="wrapper2">
+                <?php if($msg){?>
+                    <div id="msg">
+                        <p><?php echo $msg ?></p>
+                    </div>
+               <?php } ?>
                 <div id="main" class="grid-c">
                     <div id="sidebar" class="sidebar">
                         
@@ -60,12 +65,11 @@
                                     <form  method="POST" action="<?php echo base_url();?>index.php/invitations/add" name="bulkActionForm"  id="bulk-form">
                                         
                                         <div class="new-bulk">
-                                            <a class="new-link btn-quaternary" href=#">Add connections</a>
+                                            <a class="new-link btn-quaternary" href="#">Add connections</a>
                                             <ul class="bulk">
                                                 
                                                 <li><input class="btn-quaternary" type="submit" name="bulkInvitationAccept" value="Accept" disabled=""></li>
                                                 <li><input class="btn-quaternary" type="submit" name="bulkInvitationIgnore" value="Ignore" disabled=""></li>
-                                                
                                                 
                                                 
                                             </ul>
@@ -118,7 +122,7 @@
                                                     <p class="msg">
                                                         
                                                         <span class="note">
-                                                            I'd like to add you to my professional network on LinkedIn.
+                                                           <?php echo $row['msg'];?>
                                                         </span>
                                                         
                                                     </p>
@@ -138,12 +142,7 @@
                                                                 
                                                                 
                                                             </li>
-                                                            <li>
-                                                                
-                                                                <a class="ignore btn-quaternary" href="#">Report Spam</a>
-                                                                
-                                                                
-                                                            </li>
+                                                        
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -161,16 +160,11 @@
                         
                         <div class = "add1">
                             <a href = "#">
-                                <img src = "/Project/assets/img/add1.png" />
+                                <img src = "<?php echo base_url()?>assets/img/add1.png" />
                             </a>
                         </div>
                         
-<!--                        <div class = "add2">
-                            <a href = "#">
-                                <img src = "/Project/assets/img/add2.png" />
-                            </a>
-                        </div>-->
-                        
+
                     </div>
                 </div>
             </div>

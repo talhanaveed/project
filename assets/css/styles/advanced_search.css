@@ -1,5 +1,5 @@
 body{
-	background: url('/Project/assets/img/images/background.png');
+	background: url('../../img/images/background.png');
 	font-family: Arial, sans-serif;
 }
 
@@ -36,7 +36,7 @@ sub, sup {
 }
 
 #body{
-	margin-top: 80px;
+	margin-top: 15px;
 	margin-bottom: 10px;
 	margin-right: auto;
 	margin-left: auto;
@@ -52,11 +52,12 @@ sub, sup {
 	background: #fff;
 	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.15),-1px 0 0 rgba(0,0,0,0.03),1px 0 0 rgba(0,0,0,0.03),0 1px 0 rgba(0,0,0,0.12);
 	-moz-box-shadow: 0 1px 1px rgba(0,0,0,0.15),-1px 0 0 rgba(0,0,0,0.03),1px 0 0 rgba(0,0,0,0.03),0 1px 0 rgba(0,0,0,0.12);
-	box-shadow: 0 1px 1px rgba(0,0,0,0.15),-1px 0 0 rgba(0,0,0,0.03),1px 0 0 rgba(0,0,0,0.03),0 1px 0 rgba(0,0,0,0.12);
+	/*box-shadow: 0 1px 1px rgba(0,0,0,0.15),-1px 0 0 rgba(0,0,0,0.03),1px 0 0 rgba(0,0,0,0.03),0 1px 0 rgba(0,0,0,0.12);*/
 	position: relative;
 
 	margin-bottom: 15px;
 	padding-bottom: 25px;
+	box-shadow: 2px 2px 5px #6F6F6F;
 }
 
 
@@ -175,6 +176,10 @@ sub, sup {
 	cursor: pointer;
 }
 
+.advs-link:focus{
+	outline: none;
+}
+
 .advs-indicator {
 	text-indent: -119988px;
 	overflow: hidden;
@@ -186,7 +191,7 @@ sub, sup {
 	vertical-align: middle;
 	zoom: 1;
 	margin-left: 5px;
-	background: transparent url('/Project/assets/img/advanced.png') no-repeat 0 -419px;
+	background: transparent url('../../img/advanced.png') no-repeat 0 -419px;
 }
 
 .mod {
@@ -269,6 +274,7 @@ sub, sup {
 ul.facets{
 	float: left;
 	width: 200px;
+	padding-left: 0;
 }
 
 ul.facets fieldset {
@@ -456,7 +462,7 @@ ul.facets fieldset a.upgrade {
 }
 
 ul.facets .facet.premium legend {
-	background: transparent url('/Project/assets/img/advanced.png') no-repeat 0 -21px;
+	background: transparent url('../../img/advanced.png') no-repeat 0 -21px;
 }
 
 ul.facets .facet button.facet-toggle {
@@ -468,7 +474,7 @@ ul.facets .facet button.facet-toggle {
 }
 
 ul.facets .facet button.facet-toggle:before{
-	/*background: url('/Project/assets/glyphicons/png/glyphicons_218_circle_arrow_top.png');*/
+	/*background: url('../../glyphicons/png/glyphicons_218_circle_arrow_top.png');*/
 	font-weight: normal;
 	font-style: normal;
 	text-decoration: inherit;
@@ -558,19 +564,24 @@ ul.facets fieldset button.facet-toggle {
 	height: 16px;
 	width: 16px;
 	overflow: hidden;
-	background: transparent url('/Project/assets/img/advanced.png') no-repeat -37px -290px;
+	background: transparent url('../../img/advanced.png') no-repeat -37px -290px;
 	margin: 0 0 0 6px;
 	padding: 0;
 	cursor: pointer;
 }
 
 button.remove-pivot:hover{
-	background: transparent url('/Project/assets/img/advanced.png') no-repeat 0px -290px;
+	background: transparent url('../../img/advanced.png') no-repeat 0px -290px;
 }
 
 #results{
 	padding: 0;
 	margin-top: 0;
+	list-style: none;
+}
+
+.social-line{
+	padding-left: 0;
 }
 
 .result {
@@ -673,7 +684,7 @@ a:visited, #footer a:visited {
 }
 
 .result .bd .demographic .separator {
-	background: url('/Project/assets/img/advanced.png') no-repeat -3px -236px;
+	background: url('../../img/advanced.png') no-repeat -3px -236px;
 	margin-left: 3px;
 	padding-left: 8px;
 }
@@ -699,12 +710,12 @@ a:visited, #footer a:visited {
 }
 
 .result .bd .social-wrapper .social-line li.shared-conn a {
-	background: url('/Project/assets/img/advanced.png') no-repeat -2px -93px;
+	background: url('../../img/advanced.png') no-repeat -2px -93px;
 	padding-left: 10px;
 }
 
 .result .bd .social-wrapper .social-line li.similar a {
-	background: url('/Project/assets/img/advanced.png') no-repeat -4px -261px;
+	background: url('../../img/advanced.png') no-repeat -4px -261px;
 	padding-left: 6px;
 	margin-left: 4px;
 }
@@ -714,13 +725,13 @@ a:visited, #footer a:visited {
 }
 
 .result .bd .social-wrapper .social-line li.conn-count {
-	background: url('/Project/assets/img/advanced.png') no-repeat -4px -261px;
+	background: url('../../img/advanced.png') no-repeat -4px -261px;
 	padding-left: 6px;
 	margin-left: 4px;
 }
 
 .result .bd .social-wrapper .social-line li.conn-count a {
-	background: url('/Project/assets/img/advanced.png') no-repeat -1px -183px;
+	background: url('../../img/advanced.png') no-repeat -1px -183px;
 	padding-left: 17px;
 }
 
@@ -828,7 +839,7 @@ a:visited, #footer a:visited {
 }
 
 .result .srp-actions .secondary-actions-trigger:before {
-	background: url('/Project/assets/img/advanced.png') no-repeat 0px -85px;
+	background: url('../../img/advanced.png') no-repeat 0px -85px;
 	font-weight: normal;
 	font-style: normal;
 	text-decoration: inherit;
@@ -922,6 +933,10 @@ a:visited, #footer a:visited {
 	cursor: pointer;
 	padding-right: 10px;
 	border-right: 1px solid #ccc;
+}
+
+#sss:focus{
+	outline: none;
 }
 
 #sss:hover{
@@ -1025,6 +1040,10 @@ li.selected {
 	background-image: linear-gradient(#01adef,#00cded);*/
 }
 
+.search-types ul{
+	float: left;
+	padding-left: 0;
+}
 .search-types li {
 	font-size: 13px;
 	margin-left: 0px;
@@ -1063,6 +1082,10 @@ li.selected {
 	cursor: pointer;
 }
 
+.text-button:focus{
+	outline: none;
+}
+
 #advs .text-button:hover{
 	text-decoration: underline;
 }
@@ -1097,22 +1120,27 @@ padding-left: 5px;
 }
 
 #advs .text-input-fields input[type="text"] {
-background: #fdfdfd;
-vertical-align: middle;
--webkit-border-radius: 2px;
--moz-border-radius: 2px;
--ms-border-radius: 2px;
--o-border-radius: 2px;
-border-radius: 2px;
-padding: 5px 6px 4px;
--webkit-box-shadow: 0 0 3px rgba(0,0,0,0.1) inset;
--moz-box-shadow: 0 0 3px rgba(0,0,0,0.1) inset;
-box-shadow: 0 0 3px rgba(0,0,0,0.1) inset;
-border: 1px solid #c1c1c1;
-font-size: 13px;
-line-height: 13px;
-color: #333;
-width: 153px;
+	background: #fdfdfd;
+	vertical-align: middle;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+	padding: 5px 6px 4px;
+	-webkit-box-shadow: 0 0 3px rgba(0,0,0,0.1) inset;
+	-moz-box-shadow: 0 0 3px rgba(0,0,0,0.1) inset;
+	box-shadow: 0 0 3px rgba(0,0,0,0.1) inset;
+	border: 1px solid #c1c1c1;
+	font-size: 13px;
+	line-height: 13px;
+	color: #333;
+	width: 153px;
+	outline-color: none; 
+}
+
+.text-input-fields input[type="text"]:focus{
+	outline-color: #00688B;
 }
 
 #advs .text-input-fields select {
@@ -1343,7 +1371,7 @@ ul.legal li{
 }
 
 #bot_logo span{
-	background-image: url('/Project/assets/img/images/footer_logo.png');
+	background-image: url('../../img/images/footer_logo.png');
 	float: left;
 	height: 16px;
 	width: 62px;

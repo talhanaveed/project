@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Signup_Step5</title>
-		<link rel="stylesheet" type="text/css" href="/Project/assets/css/styles/signup_step5.css">
+		<title>LinkedIn | Signup Step 5</title>
+		<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>/assets/css/styles/signup_step5.css">
 
 	</head>
 
@@ -10,7 +10,7 @@
 		<div id="header">
 			<div class="temp">
 				<div class="logo" id="logo-linkedin">
-				<img src="/Project/assets/img/images/head_logo.png" >
+				<img src="<?php echo base_url()?>/assets/img/images/head_logo.png" >
 				</div>
 			</div>
 		</div>
@@ -47,11 +47,11 @@
 						</div>
 
 						<div class = "mini">
-							<h1>Ahsan Ellahi</h1>
-							<p class = "title">DaMoN</p>
+							<h1><?php echo $fname; echo " "; echo $lname; ?></h1>
+							<p class = "title"><?php echo $title?></p>
 							<label>
-								<span>Pakistan</span>
-								<span class = "last">Gaming</span>
+								<span><?php echo $country?></span>
+								<span class = "last"><?php echo $place?></span>
 							</label>
 						</div>
 
@@ -67,7 +67,7 @@
 							<button class = "btn-ico"><span>Share on Facebook</span></button>
 							<button class = "btn-icon"><span>Share on Twitter</span></button>
 							<!-- <p>&raquo</p> -->
-							<a href = "<?php echo base_url();?>index.php/upload">Skip this step &raquo</a>
+							<a href = "<?php echo base_url();?>index.php/login">Skip this step &raquo</a>
 						</div>
 						
 						

@@ -99,7 +99,7 @@ div{
 }
 
 #bot_logo span{
-	background-image: url('/Project/assets/img/images/footer_logo.png');
+	background-image: url('../../img/images/footer_logo.png');
 	float: left;
 	height: 16px;
 	width: 62px;

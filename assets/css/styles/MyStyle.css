@@ -43,7 +43,7 @@ display: block;
 color: #666;
 font-size: 80%;
 margin: 0 0 6px;
-background: url('/Project/assets/img/images/content1.png') no-repeat;
+background: url('../../img/images/content1.png') no-repeat;
 }
 
 #mid-content #content1 #reconnect {
@@ -123,6 +123,11 @@ margin-right: 10px;
 	display: block;
 	margin-top: 2.5px;
 	width: 175px;
+	outline-color: none;
+}
+
+.inputfield:focus{
+	outline-color: #00688B;
 }
 
 span.error{
@@ -319,7 +324,7 @@ ul, li{
 
 #alert {
 	margin-top: 10px;
-background: #fee url('/Project/assets/img/images/global.png') no-repeat 7px -643px;
+background: #fee url('../../img/images/global.png') no-repeat 7px -643px;
 padding-bottom: 4px;
 display: none;
 }

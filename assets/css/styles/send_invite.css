@@ -7,7 +7,7 @@ width: 980px;
 clear:both;
 }
 #section-header {
-background: url('/Project/assets/img/images/bg_border_3x1.png') repeat-x 0 100%;
+background: url('../../img/images/bg_border_3x1.png') repeat-x 0 100%;
 margin: 0 10px 15px 10px;
 height:29px;
 }
@@ -62,11 +62,11 @@ margin-top: 15px !important;
 font-size: 13px;
 }
 .iwrite {
-background: url('/Project/assets/img/images/bg_trans_top_550x7.gif') 0 0 no-repeat #ebebeb;
+background: url('../../img/images/bg_trans_top_550x7.gif') 0 0 no-repeat #ebebeb;
 width: 550px;
 }
 .iwrite-in {
-background: url('/Project/assets/img/images/bg_trans_bot_550x7.gif') bottom left no-repeat;
+background: url('../../img/images/bg_trans_bot_550x7.gif') bottom left no-repeat;
 padding: 12px;
 }
 .iwe h1 {
@@ -76,19 +76,19 @@ border: 0;
 margin: 0 0 0 11px;
 padding: 0px 0 0 35px;
 font-size: 18px;
-background: url('/Project/assets/img/images/icon_letter_grey_24x22.gif') no-repeat;
+background: url('../../img/images/icon_letter_grey_24x22.gif') no-repeat;
 background-position: left;
 height:auto;
 }
 .ipaper {
-background: url('/Project/assets/img/images/bg_paper_top_522x600.gif') 0 0 no-repeat #efefef;
+background: url('../../img/images/bg_paper_top_522x600.gif') 0 0 no-repeat #efefef;
 width: 522px;
 }
 .iwe .ipaper-in {
 padding-left: 48px !important;
 }
 .ipaper-in {
-background: url('/Project/assets/img/images/bg_paper_bot_522x50.gif') bottom left no-repeat;
+background: url('../../img/images/bg_paper_bot_522x50.gif') bottom left no-repeat;
 padding: 25px;
 }
 .iwe ul {

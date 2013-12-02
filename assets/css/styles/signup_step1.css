@@ -122,8 +122,12 @@ span.error{
 
 .fieldgroup input{
 	width: 310px;
-	outline: none;
+	outline-color: none;
 	float: left;
+}
+
+.fieldgroup input{
+	outline-color: #00688B;
 }
 
 .country{
@@ -308,7 +312,7 @@ span.error{
 }
 
 .features h3{
-	background: #fff url('/Project/assets/img/images/bulb.png') no-repeat;
+	background: #fff url('../../img/images/bulb.png') no-repeat;
 	font-weight: bold;
 	margin-bottom: 2px;
 	margin-top: 0;
@@ -325,7 +329,7 @@ span.error{
 .features ul li{
 	font-size: 13px;
 	margin-top: 8px;
-	background: #fff url('/Project/assets/img/images/bullet.png') no-repeat scroll 0 -297px;
+	background: #fff url('../../img/images/bullet.png') no-repeat scroll 0 -297px;
 	padding-left: 15px;
 }
 #eprofile{

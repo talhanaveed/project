@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Signup_Step4</title>
-		<link rel="stylesheet" type="text/css" href="/Project/assets/css/styles/signup_step4.css">
-		<script type="text/javascript" src="/Project/assets/js/signup_step4.js" ></script>
+		<title>LinkedIn | Signup Step 4</title>
+		<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>/assets/css/styles/signup_step4.css">
+		<script type="text/javascript" src="<?php echo base_url()?>/assets/js/signup_step4.js" ></script>
 	</head>
 
 	<body>
 		<div id="header">
 			<div class="temp">
 				<div class="logo" id="logo-linkedin">
-				<img src="/Project/assets/img/images/head_logo.png" >
+				<img src="<?php echo base_url()?>/assets/img/images/head_logo.png" >
 				</div>
 			</div>
 		</div>

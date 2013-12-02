@@ -6,7 +6,7 @@
   
 			if($this->session->userdata('validated'))
 		{
-			redirect('temp', 'refresh');
+			redirect('home', 'refresh');
 		}
 		}
 
@@ -84,18 +84,17 @@
                     $this->load->view('test');
                     
                 }
-                function find_alumni()
-		{
-			$this->load->view('header');
-			$this->load->view('find_alumini');
-			
-		}
+               
 
 		function advanced_search()
 		{
-			$this->load->view('header');
+			$this->load->view('profile_header');
 			$this->load->view('advanced_search');
 			
+		}
+
+		function testing(){
+			$this->load->view('ttt');
 		}
 
 	

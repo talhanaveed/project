@@ -35,7 +35,7 @@ float: center;
 #li-logo {
 width: 98px;
 margin-top: 3px;
-background: url('/Project/assets/img/images/logo1.png') left center no-repeat;
+background: url('../../img/images/logo1.png') left center no-repeat;
 display: block;
 height: 36px;
 padding: 2px;

@@ -85,7 +85,7 @@ div{
 
 .progress-meter{
 	border: 1px solid #666;
-	background: transparent url('/Project/assets/img/images/progress_quarter.png') repeat-x 0 0;
+	background: transparent url('../../img/images/progress_quarter.png') repeat-x 0 0;
 	float: right;
 	width: 100%;
 
@@ -96,7 +96,7 @@ div{
 
 .has-progress{
 	border-right: 1px solid #666;
-	background: transparent url('/Project/assets/img/images/progress_quarter.png') repeat-x 0 -50px;
+	background: transparent url('../../img/images/progress_quarter.png') repeat-x 0 -50px;
 	display: block;
 	height: 12px;
 	width: 25px;	

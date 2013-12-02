@@ -36,6 +36,7 @@ class signup extends CI_Controller{
         if ($user) {
             $params=array('next' => 'main/viewMain');
             $data['logout_url'] = $this->facebook->getLogoutUrl($params);
+            $data['msg']=null;
           //   $data['login_url'] = $this->facebook->getLoginUrl();
               $this->load->view('signup/signup',$data);
    
@@ -43,7 +44,7 @@ class signup extends CI_Controller{
 
         } else {
         	$urli= 'http://localhost/Project/index.php/signup/signup';
-
+        	   $data['msg']=null;
             $data['login_url'] = $this->facebook->getLoginUrl(array(
         'scope'         => 'email',
         'redirect_uri'  => $urli,
@@ -72,7 +73,48 @@ class signup extends CI_Controller{
         	$this->load->view('signup/signup_step1', $data);
 		}
 		else
-			echo "!..EMAIL ALREADY EXISTS..!";
+		{
+
+			$fb_config = array(
+            'appId'  => '455028367944208',
+            'secret' => 'a068ba88465c46e31b26bda33c5dc188'
+        );
+
+        $this->load->library('facebook', $fb_config);
+
+        $user = $this->facebook->getUser();
+        $access_token = $this->facebook->getAccessToken();
+
+        if ($user) {
+            try {
+                $data['user_profile'] = $this->facebook
+                    ->api('/me?fields=name,first_name,last_name,username,email');
+            } catch (FacebookApiException $e) {
+                $user = null;
+            }
+        }
+
+        if ($user) {
+            $params=array('next' => 'main/viewMain');
+            $data['logout_url'] = $this->facebook->getLogoutUrl($params);
+            $data['msg']= "Email already exists";
+          //   $data['login_url'] = $this->facebook->getLoginUrl();
+              $this->load->view('signup/signup',$data);
+   
+           
+
+        } else {
+        	$urli= 'http://localhost/Project/index.php/signup/signup';
+        	 $data['msg']= "Email already exists";
+            $data['login_url'] = $this->facebook->getLoginUrl(array(
+        'scope'         => 'email',
+        'redirect_uri'  => $urli,
+        ));
+                      $this->load->view('signup/signup',$data);
+        }
+                  $this->DestroySession();
+		}
+			
 	}
 
 	public function process()
@@ -91,7 +133,14 @@ class signup extends CI_Controller{
 	 }
 	  public function callstep5()
 	 {
-	 	$this->load->view('signup/signup_step5');
+              $data['fname']=$this->session->userdata('fname');
+               $data['lname']=$this->session->userdata('lname');
+               $data['title']=$this->session->userdata('title');
+                $data['place']=$this->session->userdata('place');
+                $data['country']=$this->session->userdata('country');
+           
+	 	$this->load->view('signup/signup_step5',$data);
+                $this->DestroySession();
 	 }
        
 	 public function processAgain()

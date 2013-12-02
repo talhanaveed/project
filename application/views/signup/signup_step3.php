@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Signup_Step3</title>
-		<link rel="stylesheet" type="text/css" href="/Project/assets/css/styles/signup_step3.css">
-		<!-- <script type="text/javascript" src="/Project/assets/js/signup/step1.js" ></script> -->
+		<title>LinkedIn | Signup Step 3</title>
+		<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>/assets/css/styles/signup_step3.css">
+
 	</head>
 
 	<body>
 		<div id="header">
 			<div class="temp">
 				<div class="logo" id="logo-linkedin">
-				<img src="/Project/assets/img/images/head_logo.png" >
+				<img src="<?php echo base_url()?>/assets/img/images/head_logo.png" >
 				</div>
 			</div>
 		</div>
@@ -56,11 +56,11 @@
   								    {?>
 										<div class = "person">
 											<input type = "checkbox" checked = "checked" id="checkbox">
-											<img src = "/Project/assets/img/images/person.png">
+											<img src = "<?php echo base_url()?>/assets/img/images/person.png">
 											<div class = "details">
 												<label>
 													<span class = "fn"><?php echo $names[$i]?></span>
-													<!-- <span class = "ln">Naveed</span> -->
+												
 												</label>
 												<p class = "mail"><?php echo $emails[$i]?></p>
 												<p class = "title"><?php echo $company[$i]?></p>

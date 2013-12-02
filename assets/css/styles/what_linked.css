@@ -1,5 +1,5 @@
 body{
-	 background-image: url('/Project/assets/img/images/background.png');
+	 background-image: url('../../img/images/background.png');
 	 background-repeat: repeat;
 	 font-family: Arial, sans-serif;
 }
@@ -39,7 +39,7 @@ div{
 
 .mid_face{
 	
-	background-image: url('/Project/assets/img/images/mid_1.png');
+	background-image: url('../../img/images/mid_1.png');
 	background-repeat: repeat-y; 
 	background-position: 50% 0%;
 	overflow: hidden;
@@ -51,21 +51,21 @@ div{
 }
 
 .img_connect{
-	background-image: url('/Project/assets/img/images/mid_2.png');
+	background-image: url('../../img/images/mid_2.png');
 	background-position: 0px 0px;
 	width: 236px;
 	height: 227px;
 }
 
 .img_power{
-	background-image: url('/Project/assets/img/images/mid_2.png');
+	background-image: url('../../img/images/mid_2.png');
 	background-position: 0px -250px;
 	width: 236px;
 	height: 227px;
 }
 
 .img_learn{
-	background-image: url('/Project/assets/img/images/mid_2.png');
+	background-image: url('../../img/images/mid_2.png');
 	background-position: 0px -500px;
 	width: 236px;
 	height: 227px;

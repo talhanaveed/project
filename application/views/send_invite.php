@@ -35,14 +35,15 @@
                     <div class="contain">
                         <div class="iwrite">
                             <div class="iwrite-in">
-                                <h1>Invite <strong>Sarah</strong> to connect on LinkedIn</h1>
+                                <h1>Invite <strong><?php echo $fname?></strong> to connect on LinkedIn</h1>
                                 <div class="ipaper">
                                     <div class="ipaper-in">
                                         <div class="wrap">
-                                            <strong class="dark">How do you know Sarah?</strong>
+                                            <strong class="dark">How do you know <?php echo $fname?>?</strong>
                                             <ul id="main-options">
                                                 <li>
                                                     <div class="list-item">
+                                                        
                                                         <input type="radio" name="reason" value="IC" id="selector-reason" class="radio-btn colleagues">
                                                         <label class="colleague">Colleague</label>
                                                     </div>
@@ -75,16 +76,18 @@
                                                 <li>
                                                     <div class="list-item">
                                                         <input type="radio" name="reason" value="IC" id="selector-reason" class="radio-btn colleagues">
-                                                        <label class="colleague">I don't know Sarah</label>
+                                                        <label class="colleague">I don't know <?php echo $fname?></label>
                                                     </div>
                                                 </li>
                                             </ul>
                                             <strong class="dark"><label for="greeting-iweReconnect">Include a personal note:</label></strong>
                                             <span class="light">(optional)</span>
                                             <br>
+                                            <form name="invite_form" method="POST" action="<?php echo base_url()?>index.php/invitations/process">
                                             <textarea name="greeting" id="greeting-text" class="message" >I'd like to add you to my professional network on LinkedIn.
 
-- Talha Naveed</textarea>
+- <?php echo $myfname . ' ' . $mylname?></textarea>
+                                                <input type="hidden" name="email" value="<?php echo $email?>">
                                         </div>
                                     </div>
                                 </div>
