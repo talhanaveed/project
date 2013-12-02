@@ -42,7 +42,7 @@ class Feed_model extends CI_Model{
         $this->db->join('comments', 'feed.id = comments.feedid', 'left');
         $this->db->where('status','public');
         $this->db->or_where('feed.email',$this->session->userdata('email'));
-          $this->db->group_by('id');
+          $this->db->group_by('id,feed.email as email, id, feed.msg as msg, users.fname, users.lname');
         $this->db->order_by('id', 'desc');
         $query = $this->db->get();
         }
