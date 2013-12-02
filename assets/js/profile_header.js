@@ -55,7 +55,7 @@
         {
               if (!window.location.origin)
      window.location.origin = window.location.protocol+"//"+window.location.host;
- var url2 = window.location.origin + "/Project/index.php/invitations/fetch";
+ var url2 = window.location.origin + "/index.php/invitations/fetch";
             $.ajax({
                 type:"get",
                 url:url2,
@@ -68,7 +68,7 @@
         {
               if (!window.location.origin)
      window.location.origin = window.location.protocol+"//"+window.location.host;
- var url2 = window.location.origin + "/Project/index.php/invitations/fetch_not_count";
+ var url2 = window.location.origin + "/index.php/invitations/fetch_not_count";
             $.ajax({
                 type:"get",
                 url:url2,

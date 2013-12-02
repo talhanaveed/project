@@ -32,7 +32,7 @@
                             ?>
                             
                             <li class = "side-li">
-                                <img src = "../../img/person.png" class = "photo" />
+                                <img src = "../img/person.png" class = "photo" />
                                 <span class = "remove"></span>
                                 <div class = "k-content">
                                     <a href = "<?php echo base_url()?>index.php/profile/open?var1=<?php echo $li['fname']?>&var2=<?php echo $li['lname']?>&var3=<?php echo $li['Position']?>&var4=<?php echo $li['eemail']?>&var5=<?php echo $li['Country'];?>" class = "k-name">
@@ -63,29 +63,29 @@
                     <?php }?>
                     <!-- <div class="add3">
                         <ul class="gallery clearfix">
-                            <li><a href="../../img/add7.jpg" rel = "prettyPhoto">
-                                <img src="../../img/add7.jpg" alt = "Linkedin - Special Feature" title = "Click" />
+                            <li><a href="../img/add7.jpg" rel = "prettyPhoto">
+                                <img src="../img/add7.jpg" alt = "Linkedin - Special Feature" title = "Click" />
                             </a></li>
                         </ul>
                     </div> -->
                     <div class="add3" style = "display: none">
                         <ul class="gallery clearfix">
-                            <li><a href="../../img/add4.jpg" rel = "prettyPhoto">
-                                <img src="../../img/add4.jpg" alt = "Linkedin - Special Feature" title = "Click" />
+                            <li><a href="../img/add4.jpg" rel = "prettyPhoto">
+                                <img src="../img/add4.jpg" alt = "Linkedin - Special Feature" title = "Click" />
                             </a></li>
                         </ul>
                     </div>
                     <div class="add3">
                         <ul class="gallery clearfix">
-                            <li><a href="../../img/add4.jpg" rel = "prettyPhoto">
-                                <img src="../../img/add4.jpg" alt = "Linkedin - Special Feature" title = "Click" />
+                            <li><a href="../img/add4.jpg" rel = "prettyPhoto">
+                                <img src="../img/add4.jpg" alt = "Linkedin - Special Feature" title = "Click" />
                             </a></li>
                         </ul>
                     </div>
                     <div class="add3">
                         <ul class="gallery clearfix">
-                            <li><a href="../../img/add7.jpg" rel = "prettyPhoto">
-                                <img src="../../img/add7.jpg" alt = "Linkedin - Special Feature" title = "Click" />
+                            <li><a href="../img/add7.jpg" rel = "prettyPhoto">
+                                <img src="../img/add7.jpg" alt = "Linkedin - Special Feature" title = "Click" />
                             </a></li>
                         </ul>
                     </div>
@@ -200,7 +200,7 @@
 
                                                                     ?>
                                                                 </a>
-                                                                <img src = "../../img/sep.png" />
+                                                                <img src = "../img/sep.png" />
                                                             </li>
                                                             <li>
                                                                 <a id = "id-comment" class = "btnnn" data-id = "comment<?php echo $li['id'] ?>" data-ids = "<?php echo $li['id'] ?>">
@@ -215,11 +215,11 @@
                                                                         }
                                                                     ?>
                                                                 </a>
-                                                                <img src = "../../img/sep.png" />
+                                                                <img src = "../img/sep.png" />
                                                             </li>
                                                             <li>
                                                                 <a >Share</a>
-                                                                <img src = "../../img/sep.png" />
+                                                                <img src = "../img/sep.png" />
                                                             </li>
                                                             <li>
                                                                 <span class = "time">
