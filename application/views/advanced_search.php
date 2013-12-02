@@ -165,7 +165,7 @@
                                                                 
                             <li class="mod2 result idx0 people" data-li-entity-id="26683502" data-li-position="0">
                                 <a href="#">
-                                    <img class="entity-img" width="60" height="60" src= "/Project/assets/img/person.png" />
+                                    <img class="entity-img" width="60" height="60" src= "../../img/person.png" />
                                 </a>
                                 <div class="bd">
                                     <h3>
@@ -290,7 +290,7 @@
                 <div id = "col3">
                     <div class = "search-link">
                         <button id = "sss">Save search</button>
-                        <div id = "sdrop"><img src = "/Project/assets/glyphicons/png/glyphicons_048_dislikes.png" /></div>
+                        <div id = "sdrop"><img src = "../../glyphicons/png/glyphicons_048_dislikes.png" /></div>
                         <ul class = "ul">
                             <li>
                                 <button id="saved-searches-button" type="button">Saved Searches</button>
@@ -309,13 +309,13 @@
                         
                     <div class = "add1">
                         <a href = "#">
-                            <img src = "/Project/assets/img/add1.png" />
+                            <img src = "../../img/add1.png" />
                         </a>
                     </div>
                         
                     <div class = "add2">
                         <a href = "#">
-                            <img src = "/Project/assets/img/add2.png" />
+                            <img src = "../../img/add2.png" />
                         </a>
                     </div>
                         
