@@ -23,7 +23,7 @@ class Feed_model extends CI_Model{
             }
         }
    
-        $this->db->select('feed.email as email, id, feed.msg as msg, fname, lname, Position, Country, img_path,imgpath,link, COUNT(feedid) as num, like, imgpath');
+        $this->db->select('feed.email as email, id, feed.msg as msg, users.fname, users.lname, Position, Country, img_path,imgpath,link, COUNT(feedid) as num, like, imgpath');
         $this->db->from('feed');
         $this->db->join('users', 'feed.email = users.email', 'left');
         $this->db->join('comments', 'feed.id = comments.feedid', 'left');
@@ -36,7 +36,7 @@ class Feed_model extends CI_Model{
         }
         else
         {
-            $this->db->select('feed.email as email, id, feed.msg as msg, fname, lname, Position, Country,img_path, imgpath,link, COUNT(feedid) as num, like, imgpath');
+            $this->db->select('feed.email as email, id, feed.msg as msg, users.fname, users.lname, Position, Country,img_path, imgpath,link, COUNT(feedid) as num, like, imgpath');
         $this->db->from('feed');
         $this->db->join('users', 'feed.email = users.email', 'left');
         $this->db->join('comments', 'feed.id = comments.feedid', 'left');
