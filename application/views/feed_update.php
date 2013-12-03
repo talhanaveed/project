@@ -58,7 +58,7 @@
 
                                                                     ?>
                                                                 </a>
-                                                                <img src = "/Project/assets/img/sep.png" />
+                                                                <img src = "<?php echo base_url()?>assets/img/sep.png" />
                                                             </li>
                                                             <li>
                                                                 <a id = "id-comment" class = "btnnn" data-id = "comment<?php echo $li['id'] ?>" data-ids = "<?php echo $li['id'] ?>">
@@ -73,11 +73,11 @@
                                                                         }
                                                                     ?>
                                                                 </a>
-                                                                <img src = "/Project/assets/img/sep.png" />
+                                                                <img src = "<?php echo base_url()?>assets/img/sep.png" />
                                                             </li>
                                                             <li>
                                                                 <a >Share</a>
-                                                                <img src = "/Project/assets/img/sep.png" />
+                                                                <img src = "<?php echo base_url()?>assets/img/sep.png" />
                                                             </li>
                                                             <li>
                                                                 <span class = "time">
