@@ -143,7 +143,7 @@ class Home extends CI_Controller{
         
        if ($status != "error")
        {
-          $config['upload_path'] = './uploads/feed/';
+          $config['upload_path'] = './uploads/';
           $config['allowed_types'] = 'gif|jpg|png|doc|txt';
           $config['max_size']  = 1024 * 8;
           $config['encrypt_name'] = TRUE;
