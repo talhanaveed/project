@@ -175,43 +175,43 @@ function post_com(id, msg){
         }
     });
  }
-  $(function(){
-            $('#p-btn').click(function(){
-                get_ax();
-            });
-        })
+  // $(function(){
+  //           $('#p-btn').click(function(){
+  //               get_ax();
+  //           });
+  //       })
 
-        function get_ax(){
+  //       function get_ax(){
         
-            // var base = "<?php echo base_url()?>index.php/";
-            var image = $('#image').val();
-            var msg = $('#postText-postModuleForm').val();
-            var status = $('#select').val();
-            var link= $('#link-input').val();
-            $.ajax({
-                type: "POST",
-                url: base + "home/text",
-                data: {msg : msg, image : image, status : status, link : link},
-                success: function(blu){
+  //           // var base = "<?php echo base_url()?>index.php/";
+  //           var image = $('#image').val();
+  //           var msg = $('#postText-postModuleForm').val();
+  //           var status = $('#select').val();
+  //           var link= $('#link-input').val();
+  //           $.ajax({
+  //               type: "POST",
+  //               url: base + "home/text",
+  //               data: {msg : msg, image : image, status : status, link : link},
+  //               success: function(blu){
                     
-                     $('#p-btn').css('display', 'none');
-                    $("#updates-content1").replaceWith(blu);
-                     $.embedly.defaults.key = 'ceacc377e4664cdfa0f5a359be04a26e';
-                    $('.b').embedly();
+  //                    $('#p-btn').css('display', 'none');
+  //                   $("#updates-content1").replaceWith(blu);
+  //                    $.embedly.defaults.key = 'ceacc377e4664cdfa0f5a359be04a26e';
+  //                   $('.b').embedly();
 
-                    // $('#img-container1').hide();
-                     document.getElementById('postText-postModuleForm').value=null;
-                     $('#img-container1').html('<a id="a"></a><input type = "hidden" name  = "link-title" id = "link-input" value = ""><input type="hidden" value="" name="image" id = "image" />');
+  //                   // $('#img-container1').hide();
+  //                    document.getElementById('postText-postModuleForm').value=null;
+  //                    $('#img-container1').html('<a id="a"></a><input type = "hidden" name  = "link-title" id = "link-input" value = ""><input type="hidden" value="" name="image" id = "image" />');
                                                     
-                     document.getElementById('image').value = null;
+  //                    document.getElementById('image').value = null;
 
-                     // document.getElementById('img-src').src = null;
-                     $('#img-container1').hide();
+  //                    // document.getElementById('img-src').src = null;
+  //                    $('#img-container1').hide();
                      
 
-                }
-            });
-      }
+  //               }
+  //           });
+  //     }
 
  function preview() {
          
