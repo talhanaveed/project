@@ -76,13 +76,32 @@ class Home extends CI_Controller{
     }
 
     public function text(){
-        redirect('home');
         $image = $_POST['image'];
         $msg = $_POST['msg'];
         $status= $_POST['status'];
         $link= $_POST['link'];
        // $msg= htmlspecialchars($msg);
-
+        echo $msg;
+        echo "\n";
+        echo $msg;
+        echo $msg;
+        echo "\n";
+        echo $msg;
+        echo $msg;
+        echo "\n";
+        echo $msg;
+        echo $msg;
+        echo "\n";
+        echo $msg;
+        echo $msg;
+        echo "\n";
+        echo $msg;
+        echo $msg;
+        echo "\n";
+        echo $msg;
+        echo $msg;
+        echo "\n";
+        echo $msg;
         $this->load->model('feed_model');
         $this->feed_model->post_text($image, $msg, $status, $link);
         $array['result'] = $this->feed_model->get_feed();
