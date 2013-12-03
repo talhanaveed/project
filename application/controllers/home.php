@@ -81,7 +81,7 @@ class Home extends CI_Controller{
         $msg = $_POST['msg'];
         $status= $_POST['status'];
         $link= $_POST['link'];
-        $msg= htmlspecialchars($msg);
+       // $msg= htmlspecialchars($msg);
 
         $this->load->model('feed_model');
         $this->feed_model->post_text($image, $msg, $status, $link);

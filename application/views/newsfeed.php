@@ -9,8 +9,9 @@
         <!-- ***** IMG ***** -->
         <link rel="stylesheet" href="<?php echo base_url();?>/assets/css/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
         <script src="<?php echo base_url();?>/assets/js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
-        <script src="<?php echo base_url();?>/assets/js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+
         <script>var base = "<?php echo base_url()?>index.php/";</script>
+          <script type="text/javascript" src="<?php echo base_url();?>/assets/js/feed.js" ></script> 
     </head>
 
     <body>
@@ -304,7 +305,7 @@
             
     </body>
         <script src="<?php echo base_url();?>/assets/js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
-                <script type="text/javascript" src="<?php echo base_url();?>/assets/js/feed.js" ></script> 
+              
     <script>
 
      
