@@ -54,46 +54,29 @@ function validateUrl(url) {
       return false; 
     } 
   }
-// $(document).ready(function(){
-//     $('.btnnn').click(function(){
-//         $('#' + $(this).data('id')).slideToggle('fast');
-//         $('.comment-container').css('border-color', '#c1c1c1'); 
-//     });
-// });
 
-// $(function(){
-//     $('.comment-container').bind('click', function(){
-//         $(this).css('border-color', '#00688B');
-//     });
-// });
-
-// $(function(){
-//     $('.share-wrapper').click(function(){
-//         $(this).css('border-color', '#00688B');
-//     });
-// });
-      $('#dummy-feed').on('click', '.like', function(){
-                var id= $(this).data('id');
-                // var base = "<?php echo base_url()?>index.php/";
-                $.ajax({
-                type: "POST",
-                url: base + "home/like",
-                data: {id : id},
-                success: function(blu){
-                    if(blu==0){ 
-                       $('#l-id'+id).html(
-                        "Like"
-                        );
-                        }
-                    else
-                    {
-                        $('#l-id'+id).html(
-                            "Like ("+blu+")"
-                            );
-                    }    
-                }
-                    });
-                });
+      // $('#dummy-feed').on('click', '.like', function(){
+      //           var id= $(this).data('id');
+      //           // var base = "<?php echo base_url()?>index.php/";
+      //           $.ajax({
+      //           type: "POST",
+      //           url: base + "home/like",
+      //           data: {id : id},
+      //           success: function(blu){
+      //               if(blu==0){ 
+      //                  $('#l-id'+id).html(
+      //                   "Like"
+      //                   );
+      //                   }
+      //               else
+      //               {
+      //                   $('#l-id'+id).html(
+      //                       "Like ("+blu+")"
+      //                       );
+      //               }    
+      //           }
+      //               });
+      //           });
 
 
 $(function(){
@@ -219,7 +202,7 @@ function post_com(id, msg){
               // e.preventDefault();
           
               // var base = "<?php echo base_url()?>index.php/";
-              alert("I am here");
+
               $.ajaxFileUpload({
                  url         : base + "home/upload_file", 
                  secureuri      :false,

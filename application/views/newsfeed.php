@@ -178,8 +178,8 @@
                                                         </a> -->
                                                         <ul class="gallery clearfix">
                                                             <li>
-                                                                <a href="<?php echo base_url()?>uploads/feed/<?php echo $li['img_path']?>" rel="prettyPhoto" id = "myimg">
-                                                                    <img src="<?php echo base_url()?>uploads/feed/<?php echo $li['img_path']?>" alt = "Linkedin - Special Feature" title = "Click" />
+                                                                <a href="<?php echo base_url()?>uploads/<?php echo $li['img_path']?>" rel="prettyPhoto" id = "myimg">
+                                                                    <img src="<?php echo base_url()?>uploads/<?php echo $li['img_path']?>" alt = "Linkedin - Special Feature" title = "Click" />
                                                                 </a>
                                                             </li>
                                                         </ul>
@@ -362,7 +362,29 @@
             })();
 
 
-    
+
+                $('#dummy-feed').on('click', '.like', function(){
+                var id= $(this).data('id');
+                // var base = "<?php echo base_url()?>index.php/";
+                $.ajax({
+                type: "POST",
+                url: base + "home/like",
+                data: {id : id},
+                success: function(blu){
+                    if(blu==0){ 
+                       $('#l-id'+id).html(
+                        "Like"
+                        );
+                        }
+                    else
+                    {
+                        $('#l-id'+id).html(
+                            "Like ("+blu+")"
+                            );
+                    }    
+                }
+                    });
+                });
           
     </script>
 
