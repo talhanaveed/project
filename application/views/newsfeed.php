@@ -2,7 +2,7 @@
     <head>
         <title>Welcome! | LinkedIn</title>
         <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/css/styles/newsfeed.css">
-        <script src="<?php echo base_url()?>assets/js/jquery-2.0.3\\.js"></script>
+         <script src="<?php echo base_url();?>/assets/js/jquery-1.10.2.js" ></script>
         <script src="<?php echo base_url()?>assets/js/ajaxfileupload.js"></script>
         <script src="<?php echo base_url()?>assets/js/jquery.embedly-3.1.1.min.js" type="text/javascript"></script>
        <!--  <script src="http://cdn.embed.ly/jquery.embedly-3.1.1.min.js" type="text/javascript"></script>-->
