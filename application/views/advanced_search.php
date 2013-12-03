@@ -1,9 +1,9 @@
 <html>
     <head>
-        <title>Advanced Search | LinkedIn</title>
+        <title>Search | LinkedIn</title>
         <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/css/styles/advanced_search.css">
-        <script type="text/javascript" src="<?php echo base_url();?>/asse<?php echo base_url()?>assets/advanced_search.js" ></script>
-        <script src="<?php echo base_url();?>/asse<?php echo base_url()?>assets/jquery-1.10.2.js" ></script>
+        <script type="text/javascript" src="<?php echo base_url();?>assets/advanced_search.js" ></script>
+        <script src="<?php echo base_url();?>assets/jquery-1.10.2.js" ></script>
     </head>
     
     <body>
