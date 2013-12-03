@@ -371,7 +371,7 @@
 
         function get_ax(){
         
-            // var base = "<?php echo base_url()?>index.php/";
+             var base = "<?php echo base_url()?>index.php/";
             var image = $('#image').val();
             var msg = $('#postText-postModuleForm').val();
             var status = $('#select').val();
