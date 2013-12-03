@@ -219,7 +219,7 @@ function post_com(id, msg){
               // e.preventDefault();
           
               // var base = "<?php echo base_url()?>index.php/";
-
+              alert("I am here");
               $.ajaxFileUpload({
                  url         : base + "home/upload_file", 
                  secureuri      :false,
