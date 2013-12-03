@@ -35,8 +35,8 @@
                                                         </a> -->
                                                         <ul class="gallery clearfix">
                                                             <li>
-                                                                <a href="<?php echo base_url()?>uploads/feed/<?php echo $li['img_path']?>" rel="prettyPhoto" id = "myimg">
-                                                                    <img src="<?php echo base_url()?>uploads/feed/<?php echo $li['img_path']?>" alt="Picture alone 1" />
+                                                                <a href="<?php echo base_url()?>uploads/<?php echo $li['img_path']?>" rel="prettyPhoto" id = "myimg">
+                                                                    <img src="<?php echo base_url()?>uploads/<?php echo $li['img_path']?>" alt="Picture alone 1" />
                                                                 </a>
                                                             </li>
                                                         </ul>
