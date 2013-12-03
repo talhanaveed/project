@@ -50,7 +50,7 @@
                   <label>First Name:</label>
                   <div class = "temp">
                     <span class = "error" id="firstname-error">Please enter a first name.</span>
-                    <input type="text" id="firstname" class="inputfield" name="firstname">
+                    <input type="text" id="firstname" class="inputfield" name="firstname" autocomplete="off">
                   </div>
                 </li>
             
@@ -59,7 +59,7 @@
                   <label >Last Name:</label>
                   <div class = "temp">
                     <span class = "error" id="lastname-error">Please enter a last name.</span>
-                    <input type="text" id="lastname" class="inputfield" name="lastname">
+                    <input type="text" id="lastname" class="inputfield" name="lastname" autocomplete="off">
                   </div>
                 
 
@@ -71,7 +71,7 @@
                   <div class = "temp">
                     <span class = "error" id="email-error">Please enter a valid email address.</span>
                    <span class = "error" id="email-error2">The text you provided is too short (the minimum length is 3 characters, your text contains 1 characters).</span>
-                    <input type="text" id="email" name="email-field" class="inputfield" >
+                    <input type="text" id="email" name="email-field" class="inputfield" autocomplete="off">
                   </div>
               
                 </li>
@@ -83,7 +83,7 @@
                 <div class = "temp">
                   <span class = "error" id="pass-error">Please enter a password.</span>
                   <span class = "error" id="pass-error2">The password you provided must have at least 6 characters.</span>
-                  <input type="password" id="email" name="pass-field" class="inputfield" name="password">
+                  <input type="password" id="email" name="pass-field" class="inputfield" name="password" autocomplete="off">
                 </div>
                 
                 <p class="hint">6 or more characters</p>

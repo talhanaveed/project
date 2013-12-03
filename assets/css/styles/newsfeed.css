@@ -445,6 +445,7 @@ select{
 	border-radius: 5px;
 	margin-top: 10px;
 	display: none;
+	word-wrap:break-word;
 }
 
 .comment-container{
