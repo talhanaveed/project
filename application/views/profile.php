@@ -16,7 +16,7 @@
                             <div class = "profile-card">
                                 <div class = "profile-picture">
                                     <a href = "#">
-                                        <img src = "/Project/assets/img/person.png" />
+                                        <img src = "<?php echo base_url()?>assets/img/person.png" />
                                     </a>
                                 </div>
                                     

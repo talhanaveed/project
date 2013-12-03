@@ -497,7 +497,7 @@
           </p><div class="truste-brand">
 
           
-           <img style="border: none" src="/Project/images/policy/trust.png" alt="TRUSTe European Safe Harbor certification">
+           <img style="border: none" src="<?php echo base_url()?>images/policy/trust.png" alt="TRUSTe European Safe Harbor certification">
           
 
           </div>

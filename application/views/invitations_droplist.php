@@ -7,7 +7,7 @@
         <li  class="inbox-item1">
             
             
-            <img class="photo1" src="/Project/assets/img/person.png" alt="" height="40" width="40">
+            <img class="photo1" src="<?php echo base_url()?>assets/img/person.png" alt="" height="40" width="40">
             <div class="item-content1">
                 
                 <input type="hidden" value="<?php echo $row['email']?>" name="email">

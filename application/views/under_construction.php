@@ -22,7 +22,7 @@
                             	<h2>THIS PAGE IS UNDER CONSTRUCTION</h2>
                                 <div class = "profile-picture">
                                     <a href = "#">
-                                        <img src = "/Project/assets/img/under.jpeg" />
+                                        <img src = "<?php echo base_url()?>assets/img/under.jpeg" />
                                     </a>
                                 </div>
 

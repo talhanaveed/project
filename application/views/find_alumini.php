@@ -17,7 +17,7 @@
         
     <body>
         <div id = "loading">
-            <img src = "/Project/assets/img/loading.gif" />
+            <img src = "<?php echo base_url()?>assets/img/loading.gif" />
         </div>
             
         <script>
@@ -224,7 +224,7 @@
                                     <li class="person">
                                         <div class="grad-year">'11</div>
                                         <a class="profile-link" data-li-member-gradyear="2011" data-li-member-id="2473457" href="#">
-                                            <img src="/Project/assets/img/person.png" />
+                                            <img src="<?php echo base_url()?>assets/img/person.png" />
                                         </a>
                                         <div class="details">
                                             <h3 class="full-name">

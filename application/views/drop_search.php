@@ -1,7 +1,7 @@
 <div id = "temp">
     
     <?php if($result == NULL){ ?>
-        <img src = "/Project/assets/img/loading.gif" class = "lll" />
+        <img src = "<?php echo base_url()?>assets/img/loading.gif" class = "lll" />
     <?php } ?>
 
     <?php if($result != NULL){ ?>
@@ -11,7 +11,7 @@
 
         <?php foreach($result as $li) {?>
         <li class = "s-li" onclick = "location.href='<?php echo base_url()?>index.php/profile/open?var1=<?php echo $li['fname']?>&var2=<?php echo $li['lname']?>&var3=<?php echo $li['Position']?>&var4=<?php echo $li['email']?>&var5=<?php echo $li['Country'];?>'">
-            <img src = "/Project/assets/img/person.png" />
+            <img src = "<?php echo base_url()?>assets/img/person.png" />
             <h4>
                 <?php
                     echo $li['fname'] . ' ' . $li['lname'];
