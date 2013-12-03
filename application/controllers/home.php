@@ -76,7 +76,7 @@ class Home extends CI_Controller{
     }
 
     public function text(){
-
+        redirect('home');
         $image = $_POST['image'];
         $msg = $_POST['msg'];
         $status= $_POST['status'];
