@@ -379,7 +379,7 @@
             alert(msg);
             $.ajax({
                 type: "POST",
-                url: base + "home/text",
+                url: base+ "home/text",
                 data: {msg : msg, image : image, status : status, link : link},
                 success: function(blu){
                     
