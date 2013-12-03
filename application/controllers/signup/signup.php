@@ -43,7 +43,7 @@ class signup extends CI_Controller{
            
 
         } else {
-        	$urli= 'http://localhost/Project/index.php/signup/signup';
+        	$urli= 'http://linkedin-wp.herokuapp.com/index.php/signup/signup';
         	   $data['msg']=null;
             $data['login_url'] = $this->facebook->getLoginUrl(array(
         'scope'         => 'email',
@@ -104,7 +104,7 @@ class signup extends CI_Controller{
            
 
         } else {
-        	$urli= 'http://localhost/Project/index.php/signup/signup';
+        	$urli= 'http://linkedin-wp.herokuapp.com/index.php/signup/signup';
         	 $data['msg']= "Email already exists";
             $data['login_url'] = $this->facebook->getLoginUrl(array(
         'scope'         => 'email',
