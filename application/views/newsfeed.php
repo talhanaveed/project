@@ -376,6 +376,7 @@
             var msg = $('#postText-postModuleForm').val();
             var status = $('#select').val();
             var link= $('#link-input').val();
+            alert(msg);
             $.ajax({
                 type: "POST",
                 url: base + "home/text",
