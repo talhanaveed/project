@@ -33,7 +33,7 @@
                             ?>
                             
                             <li class = "side-li">
-                                <img src = "../assets/img/person.png" class = "photo" />
+                                <img src = "<?php echo base_url()?>assets/img/person.png" class = "photo" />
                                 <span class = "remove"></span>
                                 <div class = "k-content">
                                     <a href = "<?php echo base_url()?>index.php/profile/open?var1=<?php echo $li['fname']?>&var2=<?php echo $li['lname']?>&var3=<?php echo $li['Position']?>&var4=<?php echo $li['eemail']?>&var5=<?php echo $li['Country'];?>" class = "k-name">
@@ -64,29 +64,29 @@
                     <?php }?>
                     <!-- <div class="add3">
                         <ul class="gallery clearfix">
-                            <li><a href="../assets/img/add7.jpg" rel = "prettyPhoto">
-                                <img src="../assets/img/add7.jpg" alt = "Linkedin - Special Feature" title = "Click" />
+                            <li><a href="<?php echo base_url()?>assets/img/add7.jpg" rel = "prettyPhoto">
+                                <img src="<?php echo base_url()?>assets/img/add7.jpg" alt = "Linkedin - Special Feature" title = "Click" />
                             </a></li>
                         </ul>
                     </div> -->
                     <div class="add3" style = "display: none">
                         <ul class="gallery clearfix">
-                            <li><a href="../assets/img/add4.jpg" rel = "prettyPhoto">
-                                <img src="../assets/img/add4.jpg" alt = "Linkedin - Special Feature" title = "Click" />
+                            <li><a href="<?php echo base_url()?>assets/img/add4.jpg" rel = "prettyPhoto">
+                                <img src="<?php echo base_url()?>assets/img/add4.jpg" alt = "Linkedin - Special Feature" title = "Click" />
                             </a></li>
                         </ul>
                     </div>
                     <div class="add3">
                         <ul class="gallery clearfix">
-                            <li><a href="../assets/img/add4.jpg" rel = "prettyPhoto">
-                                <img src="../assets/img/add4.jpg" alt = "Linkedin - Special Feature" title = "Click" />
+                            <li><a href="<?php echo base_url()?>assets/img/add4.jpg" rel = "prettyPhoto">
+                                <img src="<?php echo base_url()?>assets/img/add4.jpg" alt = "Linkedin - Special Feature" title = "Click" />
                             </a></li>
                         </ul>
                     </div>
                     <div class="add3">
                         <ul class="gallery clearfix">
-                            <li><a href="../assets/img/add7.jpg" rel = "prettyPhoto">
-                                <img src="../assets/img/add7.jpg" alt = "Linkedin - Special Feature" title = "Click" />
+                            <li><a href="<?php echo base_url()?>assets/img/add7.jpg" rel = "prettyPhoto">
+                                <img src="<?php echo base_url()?>assets/img/add7.jpg" alt = "Linkedin - Special Feature" title = "Click" />
                             </a></li>
                         </ul>
                     </div>
@@ -201,7 +201,7 @@
 
                                                                     ?>
                                                                 </a>
-                                                                <img src = "../assets/img/sep.png" />
+                                                                <img src = "<?php echo base_url()?>assets/img/sep.png" />
                                                             </li>
                                                             <li>
                                                                 <a id = "id-comment" class = "btnnn" data-id = "comment<?php echo $li['id'] ?>" data-ids = "<?php echo $li['id'] ?>">
@@ -216,11 +216,11 @@
                                                                         }
                                                                     ?>
                                                                 </a>
-                                                                <img src = "../assets/img/sep.png" />
+                                                                <img src = "<?php echo base_url()?>assets/img/sep.png" />
                                                             </li>
                                                             <li>
                                                                 <a >Share</a>
-                                                                <img src = "../assets/img/sep.png" />
+                                                                <img src = "<?php echo base_url()?>assets/img/sep.png" />
                                                             </li>
                                                             <li>
                                                                 <span class = "time">
@@ -363,45 +363,7 @@
 
 
     
-            $(function(){
-            $('#p-btn').click(function(){
-                get_ax();
-            });
-        })
-
-        function get_ax(){
-        
-            // var base = "<?php echo base_url()?>index.php/";
-            var image = $('#image').val();
-            var msg = $('#postText-postModuleForm').val();
-            var status = $('#select').val();
-            var link= $('#link-input').val();
-            alert(msg);
-            $.ajax({
-                type: "POST",
-                url: base+ "home/text",
-                data: {msg : msg, image : image, status : status, link : link},
-                success: function(blu){
-                    
-                     $('#p-btn').css('display', 'none');
-                    $("#updates-content1").replaceWith(blu);
-                     $.embedly.defaults.key = 'ceacc377e4664cdfa0f5a359be04a26e';
-                    $('.b').embedly();
-
-                    // $('#img-container1').hide();
-                     document.getElementById('postText-postModuleForm').value=null;
-                     $('#img-container1').html('<a id="a"></a><input type = "hidden" name  = "link-title" id = "link-input" value = ""><input type="hidden" value="" name="image" id = "image" />');
-                                                    
-                     document.getElementById('image').value = null;
-
-                     // document.getElementById('img-src').src = null;
-                     $('#img-container1').hide();
-                     
-
-                }
-            });
-      }
-
+          
     </script>
 
 </html>
