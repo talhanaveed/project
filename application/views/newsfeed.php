@@ -364,28 +364,6 @@
 
 
 
-                $('#dummy-feed').on('click', '.like', function(){
-                var id= $(this).data('id');
-                // var base = "<?php echo base_url()?>index.php/";
-                $.ajax({
-                type: "POST",
-                url: base + "home/like",
-                data: {id : id},
-                success: function(blu){
-                    if(blu==0){ 
-                       $('#l-id'+id).html(
-                        "Like"
-                        );
-                        }
-                    else
-                    {
-                        $('#l-id'+id).html(
-                            "Like ("+blu+")"
-                            );
-                    }    
-                }
-                    });
-                });
           
     </script>
 
