@@ -13,7 +13,7 @@
 			<div class="wrapper">
 
 				<div class="logo" id="logo-linkedin">
-				 <img src="/Project/assets/img/images/head_logo.png" >
+				 <img src="<?php echo base_url()?>assets/img/images/head_logo.png" >
 				 </div>
 				 <p id="message">
                                 Already on LinkedIn? <a href="<?php echo base_url();?>index.php/login/login">Sign in</a>

@@ -3,7 +3,7 @@
 	<head>
 		<title>LinkedIn | Signup Step 2</title>
 		<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/assets/css/styles/signup_step2.css">
-		<!-- <script type="text/javascript" src="/Project/assets/js/signup/step1.js" ></script> -->
+		<!-- <script type="text/javascript" src="<?php echo base_url()?>assets/js/signup/step1.js" ></script> -->
 	</head>
 
 	<body>

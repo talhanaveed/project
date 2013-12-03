@@ -10,7 +10,7 @@
 		<div id="header">
 			<div class="temp">
 				<div class="logo" id="logo-linkedin">
-				<img src="/Project/assets/img/images/head_logo.png" >
+				<img src="<?php echo base_url()?>assets/img/images/head_logo.png" >
 				</div>
 			</div>
 		</div>
